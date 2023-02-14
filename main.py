@@ -1,16 +1,15 @@
-# This is a sample Python script.
+# Main
+# Launch the root component, the interface in tkinter with a strategy and connectors websocket and api
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
+from interface.root_component import Root
+from strategy import GridTrading
+from connectors.api import BinanceTestnetApi
+from connectors.websocket import BinanceTestnetWebsocket
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    api = BinanceTestnetApi()
+    strategy = GridTrading(api)
+    websocket = BinanceTestnetWebsocket(strategy)
+    # Create an instance of root component
+    root = Root(strategy, api, websocket)
+    # Create a loop to keep the window open
+    root.mainloop()
