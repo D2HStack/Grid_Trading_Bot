@@ -454,3 +454,330 @@
 2023-02-14 23:08:21,006 - root - INFO - Messages updated
 2023-02-14 23:08:22,507 - root - INFO - Messages updated
 2023-02-14 23:08:24,008 - root - INFO - Messages updated
+2023-02-15 07:13:07,645 - root - INFO - Messages updated
+2023-02-15 07:13:09,146 - root - INFO - Messages updated
+2023-02-15 07:13:10,646 - root - INFO - Messages updated
+2023-02-15 07:13:12,147 - root - INFO - Messages updated
+2023-02-15 07:17:50,772 - root - INFO - Messages updated
+2023-02-15 07:17:52,274 - root - INFO - Messages updated
+2023-02-15 07:17:53,774 - root - INFO - Messages updated
+2023-02-15 07:17:55,276 - root - INFO - Messages updated
+2023-02-15 07:17:56,778 - root - INFO - Messages updated
+2023-02-15 07:17:58,279 - root - INFO - Messages updated
+2023-02-15 07:17:59,780 - root - INFO - Messages updated
+2023-02-15 07:18:01,281 - root - INFO - Messages updated
+2023-02-15 07:18:02,782 - root - INFO - Messages updated
+2023-02-15 07:18:04,284 - root - INFO - Messages updated
+2023-02-15 07:18:05,786 - root - INFO - Messages updated
+2023-02-15 07:18:07,288 - root - INFO - Messages updated
+2023-02-15 07:18:08,789 - root - INFO - Messages updated
+2023-02-15 07:18:10,290 - root - INFO - Messages updated
+2023-02-15 07:18:11,791 - root - INFO - Messages updated
+2023-02-15 07:18:13,291 - root - INFO - Messages updated
+2023-02-15 07:18:14,793 - root - INFO - Messages updated
+2023-02-15 07:18:16,294 - root - INFO - Messages updated
+2023-02-15 07:18:17,794 - root - INFO - Messages updated
+2023-02-15 07:18:19,295 - root - INFO - Messages updated
+2023-02-15 07:18:20,796 - root - INFO - Messages updated
+2023-02-15 07:18:22,296 - root - INFO - Messages updated
+2023-02-15 07:18:23,797 - root - INFO - Messages updated
+2023-02-15 07:18:25,299 - root - INFO - Messages updated
+2023-02-15 07:18:25,339 - root - INFO - Grid created
+2023-02-15 07:18:25,339 - root - INFO - contractETHUSDT
+2023-02-15 07:18:25,339 - root - INFO - lower_price1000
+2023-02-15 07:18:25,339 - root - INFO - upper_price2000
+2023-02-15 07:18:25,339 - root - INFO - grids10
+2023-02-15 07:18:25,339 - root - INFO - initial_margin1000
+2023-02-15 07:18:26,800 - root - INFO - Messages updated
+2023-02-15 07:18:28,301 - root - INFO - Messages updated
+2023-02-15 07:18:29,802 - root - INFO - Messages updated
+2023-02-15 07:18:31,303 - root - INFO - Messages updated
+2023-02-15 07:18:32,804 - root - INFO - Messages updated
+2023-02-15 07:18:34,304 - root - INFO - Messages updated
+2023-02-15 07:18:35,805 - root - INFO - Messages updated
+2023-02-15 07:59:33,565 - root - INFO - Public key: f69b3b825ba620ea22f962ca8809ed29f5632986129ab95d02dde9af6a56b755
+2023-02-15 07:59:33,935 - root - INFO - Messages updated
+2023-02-15 07:59:35,438 - root - INFO - Messages updated
+2023-02-15 07:59:36,940 - root - INFO - Messages updated
+2023-02-15 07:59:38,441 - root - INFO - Messages updated
+2023-02-15 07:59:39,942 - root - INFO - Messages updated
+2023-02-15 07:59:41,444 - root - INFO - Messages updated
+2023-02-15 07:59:42,945 - root - INFO - Messages updated
+2023-02-15 07:59:44,446 - root - INFO - Messages updated
+2023-02-15 07:59:45,948 - root - INFO - Messages updated
+2023-02-15 07:59:47,449 - root - INFO - Messages updated
+2023-02-15 07:59:48,949 - root - INFO - Messages updated
+2023-02-15 08:28:34,018 - root - INFO - Messages updated
+2023-02-15 08:28:35,520 - root - INFO - Messages updated
+2023-02-15 08:28:37,021 - root - INFO - Messages updated
+2023-02-15 08:28:38,521 - root - INFO - Messages updated
+2023-02-15 08:28:40,022 - root - INFO - Messages updated
+2023-02-15 08:28:41,523 - root - INFO - Messages updated
+2023-02-15 08:31:25,476 - root - INFO - Messages updated
+2023-02-15 08:31:26,978 - root - INFO - Messages updated
+2023-02-15 08:31:28,480 - root - INFO - Messages updated
+2023-02-15 08:31:29,982 - root - INFO - Messages updated
+2023-02-15 08:31:31,482 - root - INFO - Messages updated
+2023-02-15 08:31:32,983 - root - INFO - Messages updated
+2023-02-15 08:31:34,484 - root - INFO - Messages updated
+2023-02-15 08:31:34,871 - root - INFO - Grid created
+2023-02-15 08:31:34,871 - root - INFO - contractETHUSDT
+2023-02-15 08:31:35,985 - root - INFO - Messages updated
+2023-02-15 08:31:37,487 - root - INFO - Messages updated
+2023-02-15 08:31:38,987 - root - INFO - Messages updated
+2023-02-15 08:31:40,488 - root - INFO - Messages updated
+2023-02-15 08:32:49,731 - root - INFO - Messages updated
+2023-02-15 08:32:50,929 - root - INFO - Grid created
+2023-02-15 08:32:50,930 - root - INFO - contractETHUSDT
+2023-02-15 08:32:50,930 - root - INFO - lower_price1000
+2023-02-15 08:32:50,930 - root - INFO - upper_price2000
+2023-02-15 08:32:50,930 - root - INFO - grids10
+2023-02-15 08:32:50,930 - root - INFO - initial_margin1000
+2023-02-15 08:32:51,232 - root - INFO - Messages updated
+2023-02-15 08:32:52,733 - root - INFO - Messages updated
+2023-02-15 08:32:54,235 - root - INFO - Messages updated
+2023-02-15 08:32:55,736 - root - INFO - Messages updated
+2023-02-15 08:33:28,912 - root - INFO - Messages updated
+2023-02-15 08:33:30,414 - root - INFO - Messages updated
+2023-02-15 08:33:31,915 - root - INFO - Messages updated
+2023-02-15 08:33:33,419 - root - INFO - Messages updated
+2023-02-15 08:33:34,920 - root - INFO - Messages updated
+2023-02-15 08:33:36,421 - root - INFO - Messages updated
+2023-02-15 08:33:37,923 - root - INFO - Messages updated
+2023-02-15 08:36:00,948 - root - INFO - Messages updated
+2023-02-15 08:36:02,449 - root - INFO - Messages updated
+2023-02-15 08:36:03,100 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 08:36:03,913 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 08:36:03,951 - root - INFO - Messages updated
+2023-02-15 08:36:05,452 - root - INFO - Messages updated
+2023-02-15 08:36:06,952 - root - INFO - Messages updated
+2023-02-15 08:36:08,453 - root - INFO - Messages updated
+2023-02-15 08:37:16,087 - root - INFO - Messages updated
+2023-02-15 08:37:17,587 - root - INFO - Messages updated
+2023-02-15 08:37:18,091 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 08:37:19,050 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 08:37:19,059 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 08:37:19,330 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 08:37:19,334 - root - INFO - Messages updated
+2023-02-15 08:37:20,837 - root - INFO - Messages updated
+2023-02-15 08:37:22,337 - root - INFO - Messages updated
+2023-02-15 08:37:23,839 - root - INFO - Messages updated
+2023-02-15 08:37:52,996 - root - INFO - Messages updated
+2023-02-15 08:37:54,496 - root - INFO - Messages updated
+2023-02-15 08:37:55,475 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 08:37:56,222 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 502 600
+2023-02-15 08:37:56,231 - root - INFO - Messages updated
+2023-02-15 08:37:57,733 - root - INFO - Messages updated
+2023-02-15 08:37:59,234 - root - INFO - Messages updated
+2023-02-15 08:38:00,735 - root - INFO - Messages updated
+2023-02-15 08:38:02,236 - root - INFO - Messages updated
+2023-02-15 08:38:55,266 - root - INFO - Messages updated
+2023-02-15 08:38:56,316 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 08:38:56,638 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 08:38:56,767 - root - INFO - Messages updated
+2023-02-15 08:38:58,270 - root - INFO - Messages updated
+2023-02-15 08:38:59,771 - root - INFO - Messages updated
+2023-02-15 08:39:01,272 - root - INFO - Messages updated
+2023-02-15 08:39:11,314 - root - INFO - Messages updated
+2023-02-15 08:39:12,816 - root - INFO - Messages updated
+2023-02-15 08:39:13,823 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 08:39:14,148 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 08:39:14,156 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 08:39:14,455 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 08:39:14,460 - root - INFO - Messages updated
+2023-02-15 08:39:15,960 - root - INFO - Messages updated
+2023-02-15 08:39:17,462 - root - INFO - Messages updated
+2023-02-15 08:39:18,962 - root - INFO - Messages updated
+2023-02-15 08:39:41,842 - root - INFO - Messages updated
+2023-02-15 08:39:42,719 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 08:39:43,027 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 08:39:43,036 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 08:39:43,332 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 08:39:43,343 - root - INFO - Messages updated
+2023-02-15 08:39:44,845 - root - INFO - Messages updated
+2023-02-15 08:39:46,346 - root - INFO - Messages updated
+2023-02-15 08:39:47,849 - root - INFO - Messages updated
+2023-02-15 08:39:49,350 - root - INFO - Messages updated
+2023-02-15 08:39:50,851 - root - INFO - Messages updated
+2023-02-15 08:42:47,474 - root - INFO - Messages updated
+2023-02-15 08:42:48,976 - root - INFO - Messages updated
+2023-02-15 08:42:50,236 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 08:42:50,624 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 08:42:50,632 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 08:42:50,929 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 08:42:50,934 - root - INFO - Messages updated
+2023-02-15 08:42:52,436 - root - INFO - Messages updated
+2023-02-15 08:42:53,937 - root - INFO - Messages updated
+2023-02-15 08:42:55,437 - root - INFO - Messages updated
+2023-02-15 08:42:56,939 - root - INFO - Messages updated
+2023-02-15 08:55:11,989 - root - INFO - Messages updated
+2023-02-15 08:55:13,393 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 08:55:13,691 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 08:55:13,699 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 08:55:14,430 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 08:55:14,447 - root - INFO - Messages updated
+2023-02-15 08:55:15,949 - root - INFO - Messages updated
+2023-02-15 08:55:17,452 - root - INFO - Messages updated
+2023-02-15 08:55:18,952 - root - INFO - Messages updated
+2023-02-15 08:55:20,454 - root - INFO - Messages updated
+2023-02-15 08:55:21,956 - root - INFO - Messages updated
+2023-02-15 08:56:20,950 - root - INFO - Messages updated
+2023-02-15 08:56:22,451 - root - INFO - Messages updated
+2023-02-15 08:56:22,722 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 08:56:23,460 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 08:56:23,468 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 08:56:24,205 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 08:56:24,210 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 08:56:24,490 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676447784207&signature=9d9127df9fba6604eff48b618654d592e06bb9c6a4bbc86f490ad1e6701a3da9 HTTP/1.1" 200 None
+2023-02-15 08:56:24,494 - root - INFO - Messages updated
+2023-02-15 08:56:25,996 - root - INFO - Messages updated
+2023-02-15 08:56:27,499 - root - INFO - Messages updated
+2023-02-15 08:56:29,000 - root - INFO - Messages updated
+2023-02-15 08:56:30,500 - root - INFO - Messages updated
+2023-02-15 08:56:32,001 - root - INFO - Messages updated
+2023-02-15 08:56:33,502 - root - INFO - Messages updated
+2023-02-15 08:56:35,002 - root - INFO - Messages updated
+2023-02-15 08:56:36,503 - root - INFO - Messages updated
+2023-02-15 08:56:38,003 - root - INFO - Messages updated
+2023-02-15 08:56:39,505 - root - INFO - Messages updated
+2023-02-15 08:56:41,006 - root - INFO - Messages updated
+2023-02-15 08:56:42,507 - root - INFO - Messages updated
+2023-02-15 08:56:44,008 - root - INFO - Messages updated
+2023-02-15 08:56:45,510 - root - INFO - Messages updated
+2023-02-15 08:56:47,011 - root - INFO - Messages updated
+2023-02-15 08:56:48,512 - root - INFO - Messages updated
+2023-02-15 09:13:23,784 - root - INFO - Messages updated
+2023-02-15 09:13:25,285 - root - INFO - Messages updated
+2023-02-15 09:13:26,785 - root - INFO - Messages updated
+2023-02-15 09:13:28,287 - root - INFO - Messages updated
+2023-02-15 09:13:29,788 - root - INFO - Messages updated
+2023-02-15 09:13:31,289 - root - INFO - Messages updated
+2023-02-15 09:13:32,791 - root - INFO - Messages updated
+2023-02-15 09:13:34,293 - root - INFO - Messages updated
+2023-02-15 09:13:35,794 - root - INFO - Messages updated
+2023-02-15 09:13:37,295 - root - INFO - Messages updated
+2023-02-15 09:14:01,280 - root - INFO - Messages updated
+2023-02-15 09:14:02,781 - root - INFO - Messages updated
+2023-02-15 09:14:04,281 - root - INFO - Messages updated
+2023-02-15 09:14:05,782 - root - INFO - Messages updated
+2023-02-15 09:14:07,283 - root - INFO - Messages updated
+2023-02-15 09:14:08,783 - root - INFO - Messages updated
+2023-02-15 09:14:20,895 - root - INFO - Messages updated
+2023-02-15 09:14:22,246 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:14:23,012 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 09:14:23,024 - root - INFO - Messages updated
+2023-02-15 09:14:24,524 - root - INFO - Messages updated
+2023-02-15 09:14:26,025 - root - INFO - Messages updated
+2023-02-15 09:18:38,641 - root - INFO - Messages updated
+2023-02-15 09:18:40,141 - root - INFO - Messages updated
+2023-02-15 09:18:41,120 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:18:41,874 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 09:18:41,881 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:18:42,616 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 09:18:42,621 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:18:43,355 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676449122618&signature=ed740bb574fec10976b3c200a39d835f7ac8afe8bfdd4fd3025476858397ac72 HTTP/1.1" 200 None
+2023-02-15 09:18:43,361 - root - INFO - Messages updated
+2023-02-15 09:18:44,863 - root - INFO - Messages updated
+2023-02-15 09:18:46,364 - root - INFO - Messages updated
+2023-02-15 09:18:47,867 - root - INFO - Messages updated
+2023-02-15 09:18:49,368 - root - INFO - Messages updated
+2023-02-15 09:18:50,871 - root - INFO - Messages updated
+2023-02-15 09:18:52,372 - root - INFO - Messages updated
+2023-02-15 09:18:53,875 - root - INFO - Messages updated
+2023-02-15 09:18:57,641 - root - INFO - Messages updated
+2023-02-15 09:18:59,141 - root - INFO - Messages updated
+2023-02-15 09:19:00,644 - root - INFO - Messages updated
+2023-02-15 09:19:02,144 - root - INFO - Messages updated
+2023-02-15 09:19:03,648 - root - INFO - Messages updated
+2023-02-15 09:19:05,151 - root - INFO - Messages updated
+2023-02-15 09:19:06,652 - root - INFO - Messages updated
+2023-02-15 09:20:17,899 - root - INFO - Messages updated
+2023-02-15 09:20:19,401 - root - INFO - Messages updated
+2023-02-15 09:20:20,903 - root - INFO - Messages updated
+2023-02-15 09:20:22,407 - root - INFO - Messages updated
+2023-02-15 09:20:23,907 - root - INFO - Messages updated
+2023-02-15 09:20:25,408 - root - INFO - Messages updated
+2023-02-15 09:20:26,909 - root - INFO - Messages updated
+2023-02-15 09:20:28,419 - root - INFO - Messages updated
+2023-02-15 09:20:29,922 - root - INFO - Messages updated
+2023-02-15 09:20:31,425 - root - INFO - Messages updated
+2023-02-15 09:20:32,926 - root - INFO - Messages updated
+2023-02-15 09:20:34,427 - root - INFO - Messages updated
+2023-02-15 09:20:35,927 - root - INFO - Messages updated
+2023-02-15 09:21:33,204 - root - INFO - Messages updated
+2023-02-15 09:21:34,704 - root - INFO - Messages updated
+2023-02-15 09:21:36,207 - root - INFO - Messages updated
+2023-02-15 09:21:37,709 - root - INFO - Messages updated
+2023-02-15 09:21:39,210 - root - INFO - Messages updated
+2023-02-15 09:21:40,713 - root - INFO - Messages updated
+2023-02-15 09:21:42,215 - root - INFO - Messages updated
+2023-02-15 09:21:43,718 - root - INFO - Messages updated
+2023-02-15 09:21:45,220 - root - INFO - Messages updated
+2023-02-15 09:21:46,722 - root - INFO - Messages updated
+2023-02-15 09:21:48,222 - root - INFO - Messages updated
+2023-02-15 09:21:49,723 - root - INFO - Messages updated
+2023-02-15 09:21:51,224 - root - INFO - Messages updated
+2023-02-15 09:21:59,123 - root - INFO - Messages updated
+2023-02-15 09:22:00,626 - root - INFO - Messages updated
+2023-02-15 09:22:02,127 - root - INFO - Messages updated
+2023-02-15 09:22:02,518 - root - WARNING - Nothing entered
+2023-02-15 09:22:03,631 - root - INFO - Messages updated
+2023-02-15 09:22:05,132 - root - INFO - Messages updated
+2023-02-15 09:22:06,635 - root - INFO - Messages updated
+2023-02-15 09:22:07,812 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:22:08,625 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 09:22:08,634 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:22:09,364 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 09:22:09,368 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:22:09,649 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676449329366&signature=95be449d5fb58ed1da9ab43b410bb7db1d694e282d154d3d6b0e840257f90763 HTTP/1.1" 200 None
+2023-02-15 09:22:09,651 - root - INFO - Messages updated
+2023-02-15 09:22:11,152 - root - INFO - Messages updated
+2023-02-15 09:22:12,655 - root - INFO - Messages updated
+2023-02-15 09:22:14,157 - root - INFO - Messages updated
+2023-02-15 09:22:15,659 - root - INFO - Messages updated
+2023-02-15 09:25:09,578 - root - INFO - Messages updated
+2023-02-15 09:25:10,908 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:25:11,210 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 09:25:11,219 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:25:11,520 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 09:25:11,524 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:25:12,260 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676449511522&signature=88934a7d9e6a85e2543ea8d161e743a0708ef1b740f9ef99a2ae2ca3a16996e1 HTTP/1.1" 200 None
+2023-02-15 09:25:12,264 - root - INFO - Messages updated
+2023-02-15 09:25:13,765 - root - INFO - Messages updated
+2023-02-15 09:25:15,265 - root - INFO - Messages updated
+2023-02-15 09:25:16,766 - root - INFO - Messages updated
+2023-02-15 09:27:29,658 - root - INFO - Messages updated
+2023-02-15 09:27:31,160 - root - INFO - Messages updated
+2023-02-15 09:27:31,510 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:27:32,256 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 09:27:32,264 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:27:32,631 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 09:27:32,636 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:27:32,939 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676449652633&signature=687278077db74932fcef9acc44550c42c2106c16583b5ed679f27c667dfd00d4 HTTP/1.1" 200 None
+2023-02-15 09:27:32,943 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:27:33,215 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676449652941&signature=32dba0176bb8068a349735a2e53fc8f48ade205e594f452590f3e0c2ae17deef HTTP/1.1" 200 None
+2023-02-15 09:27:33,219 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:27:33,494 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009764258&timestamp=1676449653217&signature=10375ab1b7413a4bd6a4c4afab66760d06bf2e876c3fe6c77f466c96e39a7149 HTTP/1.1" 200 None
+2023-02-15 09:27:33,497 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:27:33,778 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009764602&timestamp=1676449653495&signature=c3a0089a9c6a530d93bee8ecbe9c153fceabe6115944a2313f9b3b4300d071ba HTTP/1.1" 200 None
+2023-02-15 09:27:33,788 - root - INFO - Messages updated
+2023-02-15 09:27:35,288 - root - INFO - Messages updated
+2023-02-15 09:27:36,789 - root - INFO - Messages updated
+2023-02-15 09:27:38,292 - root - INFO - Messages updated
+2023-02-15 09:27:39,794 - root - INFO - Messages updated
+2023-02-15 09:27:41,295 - root - INFO - Messages updated
+2023-02-15 09:27:44,568 - root - INFO - Messages updated
+2023-02-15 09:27:46,071 - root - INFO - Messages updated
+2023-02-15 09:27:46,440 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:27:47,187 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 09:27:47,195 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:27:47,579 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 09:27:47,583 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:27:48,317 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676449667581&signature=3bc3036f3112da0dad0da2f9e6601d6b92f8b014ee527f54791450d9008ecca2 HTTP/1.1" 200 None
+2023-02-15 09:27:48,321 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:27:49,046 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676449668318&signature=fab018f9267292d121a53709a78d5628537a28c990b64efb6190e8601c14543c HTTP/1.1" 200 None
+2023-02-15 09:27:49,050 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 09:27:49,331 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009764638&timestamp=1676449669048&signature=e6b40277bb9e4e465dcf3da2e57871be6ea7f76800c193829ab75049a2047749 HTTP/1.1" 200 None
+2023-02-15 09:27:49,336 - root - INFO - Messages updated
+2023-02-15 09:27:50,838 - root - INFO - Messages updated
+2023-02-15 09:27:52,338 - root - INFO - Messages updated

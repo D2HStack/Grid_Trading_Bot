@@ -13,7 +13,10 @@ pip
 git clone 
 cd grid_trading_bot
 ```
-
+> 👉 **Step 1** - Install modules
+```bash
+ pip install -r requirements.txt
+```
 
 
 
