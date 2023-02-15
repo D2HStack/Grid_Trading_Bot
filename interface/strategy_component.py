@@ -30,6 +30,10 @@ class StrategyFrame(tk.Frame):
                                                  command=self._on_submit_create, bg=BG_COLOR_2,
                                                  fg=FG_COLOR_BUTTON)
         self._create_button.pack(side=tk.TOP)
+        self._close_button = tk.Button(self, text="CLOSE", font=BUTTON_FONT,
+                                        command=self._on_submit_close, bg=BG_COLOR_2,
+                                        fg=FG_COLOR_BUTTON, state='disabled')
+        self._close_button.pack(side=tk.TOP)
 
     # Call back function on <Return>
     def _on_return(self, param: str):
@@ -52,6 +56,7 @@ class StrategyFrame(tk.Frame):
     def _on_submit_create(self):
         # Disable button and entries and build the params for create strategy method
         self._create_button.config(state="disabled")
+        self._close_button.config(state="normal")
         params = dict()
         for param in self._params:
             index = self._params.index(param)
@@ -59,6 +64,21 @@ class StrategyFrame(tk.Frame):
             params[name] = self._params[index]['value']
             self._entries[name].config(state="disabled")
         # For testing
-        params = {'contract': 'ETHUSDT', 'lower_price': 1000, 'upper_price': 2000, 'grids': 10, 'initial_margin': 1000}
+        params = {'contract': 'ETHUSDT', 'lower_price': 1000, 'upper_price': 2000, 'grids': 5, 'initial_margin': 1000}
         msg = self._strategy.create(params)
+        self._messages.add_msg(msg)
+
+    # Close button
+    def _on_submit_close(self):
+        # Enable button and entries and build the params for create strategy method
+        # Disable button and entries and build the params for create strategy method
+        self._create_button.config(state="normal")
+        self._close_button.config(state="disabled")
+        params = dict()
+        for param in self._params:
+            index = self._params.index(param)
+            name = param['name']
+            #params[name] = self._params[index]['value']
+            self._entries[name].config(state="normal")
+        msg = self._strategy.close()
         self._messages.add_msg(msg)

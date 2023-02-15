@@ -4,59 +4,67 @@ import typing
 from datetime import datetime
 from interface.styling import *
 from connectors.api import BinanceTestnetApi
+from strategy import GridTrading
 from models import *
 import logging
 
 logger = logging.getLogger()
 
-class Messages(tk.Frame):
-    def __init__(self, api:BinanceTestnetApi, contract: Contract, *args, **kwargs):
+class OrdersFrame(tk.Frame):
+    def __init__(self, api: BinanceTestnetApi, strategy: GridTrading, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self._api = api
+        self._strategy = strategy
         self._headers = [{'label': 'Side', 'name': 'side'}, {'label': 'Price', 'name': 'price'}, {'label': 'Quantity', 'name': 'quantity'}]
-        # Initial state of open orders
-        self._open_orders = self._api.get_open_orders(contract)
-        self._mark_price = self._api.get_mark_price(contract)
-        self._build(self._open_orders, self._mark_price)
-        for order in self._open_orders:
-            print(str(order.order_id) + " " + str(order.symbol) + " " + str(order.side) + " " + str(order.price) + " " +str(order.quantity))
+        self._initial = True
+        self._grids = None
+        self._orders = dict()
+        self._order_var = dict()
+        self._order_label = dict()
+        # Position headers
+        self._headers_label = dict()
+        col = 0
+        for header in self._headers:
+            self._headers_label[header['name']] = tk.Label(self, text=header['label'],  justify=tk.LEFT, bg=BG_COLOR, fg=FG_COLOR, font=BOLD_FONT)
+            self._headers_label[header['name']].grid(row=0, column=col)
+            col += 1
 
     # Build a table of orders
-    def _build(self, orders: typing.List[OrderStatus], mark_price: MarkPrice):
-        orders.append(OrderStatus({'i': 'mark_price', 's': mark_price.symbol, 'p': mark_price.mark_price, 'S': 'mark_price'}))
-        orders = orders.sort('price')
-
-        ''' 
-        self._open_orders = self._api.get_open_orders(contract)
-        self._open_orders_var = []
-        self._open_orders_label = []
-        mark_price = self._api.get_mark_price(contract)
-        self._open_orders = self._open_orders.sort('price')
-        for open_order in self._open_orders:
-            row = self._open_orders.index(open_order)
-            if open_order.side == "SELL":
-                font = FG_COLOR_SELL
-            elif open_order.side == "BUY":
-                font = FG_COLOR_BUY
-            open_order_var_temp = dict()
-            open_order_var_temp['order_id'] = 
-            
-            for header
-            self._open_orders_var.apppend(tk.StringVar())
-
-            self._open_orders_label[index] = tk.Label(self, textvariable=self._open_orders_var[index], justify=tk.LEFT, bg=BG_COLOR,fg=font,font=BOLD_FONT)
-            '''
-
-
-
-
-
-
-            # Display
-        self._
-        self._messages_text = tk.Text(self, height=10, width=60, state=tk.DISABLED, bg=BG_COLOR, fg=FG_COLOR_2, font=GLOBAL_FONT)
-        self._messages_text.pack(side=tk.TOP)
+    def update(self):
+        if self._strategy.get_active():
+            orders = self._strategy.get_open_orders()
+            orders.sort(key=lambda o: o.price, reverse=True)
+            self._grids = self._strategy.get_grids()
+            if self._initial:
+                row = 1
+                for order in orders:
+                    if order is not None and order:
+                        price_str = str(round(order.price, 8))
+                        print(str(order.symbol) + " " + str(order.side) + " " + str(order.price))
+                        self._orders[price_str] = order
+                        self._order_var[price_str] = dict()
+                        self._order_label[price_str] = dict()
+                        col = 0
+                        for header in self._headers:
+                            name = header['name']
+                            self._order_var[price_str][name] = tk.StringVar()
+                            self._order_var[price_str][name].set(str(getattr(order, name)))
+                            self._order_label[price_str][name] = tk.Label(self, textvariable=self._order_var[price_str][name], justify=tk.LEFT, bg=BG_COLOR, fg=self._font(order), font=BOLD_FONT)
+                            self._order_label[price_str][name].grid(row=row, column=col)
+                            col += 1
+                        row += 1
+                self._initial = False
+            else:
+                row = 1
+                for price_str in self._orders:
+                    index = orders.index(self._orders[price_str])
 
 
 
+    # Change font color depending on side
+    def _font(self, order: OrderStatus) -> str:
+        if order.side == "BUY":
+            return FG_COLOR_BUY
+        elif order.side == "SELL":
+            return FG_COLOR_SELL
 

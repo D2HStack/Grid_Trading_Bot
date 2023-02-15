@@ -8,6 +8,8 @@ from connectors.api import BinanceTestnetApi
 from connectors.websocket import BinanceTestnetWebsocket
 from interface.messages_component import Messages
 from interface.strategy_component import StrategyFrame
+from interface.orders_component import OrdersFrame
+from models import *
 import logging
 
 logger = logging.getLogger()
@@ -29,6 +31,8 @@ class Root(tk.Tk):
         # Frames
         self._messages_frame = Messages(self._right_frame, bg=BG_COLOR)
         self._messages_frame.pack(side=tk.TOP)
+        self._orders_frame = OrdersFrame(self._api, self._strategy, self._right_frame, bg=BG_COLOR)
+        self._orders_frame.pack(side=tk.TOP)
         self._strategy_frame = StrategyFrame(self._strategy, self._messages_frame, self._left_frame, bg=BG_COLOR)
         self._strategy_frame.pack(side=tk.TOP)
         # Initialising update
@@ -39,9 +43,11 @@ class Root(tk.Tk):
         try:
             # Update frames
             self._messages_frame.update_msg()
-            logger.info("Messages updated")
+            self._orders_frame.update()
+
 
         except RuntimeError as e:
             print("Error while updating interface: %s", e)
             # Loop on itself after x milliseconds
         self.after(1500, self._update_ui)
+

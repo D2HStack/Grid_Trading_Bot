@@ -12,7 +12,7 @@ class Messages(tk.Frame):
         self._messages = []
         # Display
         self._messages_text = tk.Text(self, height=10, width=60, state=tk.DISABLED, bg=BG_COLOR, fg=FG_COLOR_2, font=GLOBAL_FONT)
-        self._messages_text.pack(side=tk.TOP)
+        self._messages_text.pack(side=tk.BOTTOM)
 
     # Update the messages
     def update_msg(self):
