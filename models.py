@@ -39,7 +39,6 @@ class OrderStatus:
         self.type = (info['type'])
         self.side = (info['side'])
         self.order_time = 0
-
 # Order Update from user stream "ORDER_TRADE_UPDATE"
 class OrderUpdate:
     def __init__(self, info):
@@ -54,7 +53,6 @@ class OrderUpdate:
         self.order_time = (info['T'])
         self.update_time = 0
         self.avg_price = float(info['ap'])
-
 # positions from Account/Trades Endpoints/Position Information (USER_DATA)
 class PositionStatus:
     def __init__(self, info):
@@ -63,7 +61,6 @@ class PositionStatus:
         self.liquidation_price = float(info['liquidationPrice'])
         self.mark_price = float(info['markPrice'])
         self.unrealized_profit = float(info['unRealizedProfit'])
-
 # Positions from user websocket Event: Balance and Position Update
 class PositionUpdate:
     def __init__(self, info):
@@ -71,9 +68,16 @@ class PositionUpdate:
         self.amount = float(info['pa'])
         self.entry_price = float(info['ep'])
         self.accumulated_realized = float(info['cr'])
-
+        self.update_time = 0
+# Balances from user websocket Event: Balance and Position Update
+class BalanceUpdate:
+    def __init__(self, info):
+        self.asset = (info['a'])
+        self.wallet_balance = float(info['wb'])
+        self.update_time = 0
 # Market price
 class MarkPrice:
     def __init__(self, info):
         self.symbol = (info['symbol'])
         self.mark_price = float(info['markPrice'])
+        self.time = 0

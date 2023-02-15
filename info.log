@@ -781,3 +781,558 @@
 2023-02-15 09:27:49,336 - root - INFO - Messages updated
 2023-02-15 09:27:50,838 - root - INFO - Messages updated
 2023-02-15 09:27:52,338 - root - INFO - Messages updated
+2023-02-15 10:29:26,991 - root - ERROR - Connection error while making POST request to /fapi/v1/listenKey: 'BinanceTestnetWebsocket' object has no attribute '_HEADERS'
+2023-02-15 10:29:27,438 - root - INFO - Messages updated
+2023-02-15 10:29:28,968 - root - INFO - Messages updated
+2023-02-15 10:29:30,469 - root - INFO - Messages updated
+2023-02-15 10:29:31,971 - root - INFO - Messages updated
+2023-02-15 10:29:33,473 - root - INFO - Messages updated
+2023-02-15 10:29:34,976 - root - INFO - Messages updated
+2023-02-15 10:31:01,811 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:31:01,863 - root - INFO - Messages updated
+2023-02-15 10:31:02,155 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676453461516 HTTP/1.1" 200 None
+2023-02-15 10:31:03,363 - root - INFO - Messages updated
+2023-02-15 10:31:04,864 - root - INFO - Messages updated
+2023-02-15 10:31:06,366 - root - INFO - Messages updated
+2023-02-15 10:31:07,868 - root - INFO - Messages updated
+2023-02-15 10:31:09,370 - root - INFO - Messages updated
+2023-02-15 10:31:10,871 - root - INFO - Messages updated
+2023-02-15 10:31:12,371 - root - INFO - Messages updated
+2023-02-15 10:32:06,155 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:32:06,241 - root - INFO - Messages updated
+2023-02-15 10:32:06,919 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676453525880 HTTP/1.1" 200 None
+2023-02-15 10:32:07,742 - root - INFO - Messages updated
+2023-02-15 10:32:09,242 - root - INFO - Messages updated
+2023-02-15 10:35:32,984 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:35:33,029 - root - INFO - Messages updated
+2023-02-15 10:35:33,745 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676453732701 HTTP/1.1" 200 None
+2023-02-15 10:35:34,529 - root - INFO - Messages updated
+2023-02-15 10:35:36,030 - root - INFO - Messages updated
+2023-02-15 10:35:37,531 - root - INFO - Messages updated
+2023-02-15 10:37:55,278 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:37:55,324 - root - INFO - Messages updated
+2023-02-15 10:37:56,032 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676453874984 HTTP/1.1" 200 None
+2023-02-15 10:37:56,826 - root - INFO - Messages updated
+2023-02-15 10:37:58,327 - root - INFO - Messages updated
+2023-02-15 10:38:19,551 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:38:19,621 - root - INFO - Messages updated
+2023-02-15 10:38:20,297 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676453899257 HTTP/1.1" 200 None
+2023-02-15 10:38:21,121 - root - INFO - Messages updated
+2023-02-15 10:38:22,622 - root - INFO - Messages updated
+2023-02-15 10:38:24,123 - root - INFO - Messages updated
+2023-02-15 10:38:25,625 - root - INFO - Messages updated
+2023-02-15 10:38:27,127 - root - INFO - Messages updated
+2023-02-15 10:41:15,359 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:41:15,433 - root - INFO - Messages updated
+2023-02-15 10:41:15,647 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676454075077 HTTP/1.1" 200 None
+2023-02-15 10:41:16,934 - root - INFO - Messages updated
+2023-02-15 10:41:18,435 - root - INFO - Messages updated
+2023-02-15 10:41:19,936 - root - INFO - Messages updated
+2023-02-15 10:42:45,389 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:42:45,457 - root - INFO - Messages updated
+2023-02-15 10:42:46,130 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676454165090 HTTP/1.1" 200 None
+2023-02-15 10:42:46,957 - root - INFO - Messages updated
+2023-02-15 10:42:47,115 - websocket - INFO - Websocket connected
+2023-02-15 10:42:47,115 - root - INFO - Binance User Websocket connection opened
+2023-02-15 10:42:48,458 - root - INFO - Messages updated
+2023-02-15 10:42:49,959 - root - INFO - Messages updated
+2023-02-15 10:42:51,459 - root - INFO - Messages updated
+2023-02-15 10:42:52,511 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:42:53,284 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 10:42:53,292 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:42:53,586 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 10:42:53,598 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:42:54,344 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676454173595&signature=93b71306c6e8e4ebccfdb47e371d58924e2aeec9170cd0323246835337efd514 HTTP/1.1" 200 None
+2023-02-15 10:42:54,348 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:42:55,136 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676454174346&signature=14b3f0ce0c76d167f7ca43ad3328d2248cf68dd2920520c264352c98124a9db2 HTTP/1.1" 200 None
+2023-02-15 10:42:55,145 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:42:55,430 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009778212&timestamp=1676454175143&signature=e42f239aa2f80db9c8c225c8200379dca8a30036fc695abbf6ba6789276d588f HTTP/1.1" 200 None
+2023-02-15 10:42:55,435 - root - INFO - Messages updated
+2023-02-15 10:42:56,936 - root - INFO - Messages updated
+2023-02-15 10:42:58,437 - root - INFO - Messages updated
+2023-02-15 10:42:59,938 - root - INFO - Messages updated
+2023-02-15 10:43:01,439 - root - INFO - Messages updated
+2023-02-15 10:43:02,939 - root - INFO - Messages updated
+2023-02-15 10:43:04,440 - root - INFO - Messages updated
+2023-02-15 10:43:05,941 - root - INFO - Messages updated
+2023-02-15 10:46:09,593 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:46:09,685 - root - INFO - Messages updated
+2023-02-15 10:46:09,908 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676454369221 HTTP/1.1" 200 None
+2023-02-15 10:46:10,878 - websocket - INFO - Websocket connected
+2023-02-15 10:46:10,885 - root - INFO - Binance User Websocket connection opened
+2023-02-15 10:46:11,186 - root - INFO - Messages updated
+2023-02-15 10:46:11,219 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:46:11,517 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 10:46:11,526 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:46:11,816 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 10:46:11,821 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:46:12,101 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676454371818&signature=0ab8ed140d8ca32eb932a1cc2e6d851413b6fa4adff856cbcec53b0decae0bec HTTP/1.1" 200 None
+2023-02-15 10:46:12,104 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:46:12,109 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x103fc5e90>>: 'type' object is not iterable
+2023-02-15 10:46:12,109 - root - ERROR - Binance User Websocket connection error: 'type' object is not iterable
+2023-02-15 10:46:12,381 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676454372102&signature=81309951d72f0131412e05db74107f084d6a789003a05cfd2b77d35132e53047 HTTP/1.1" 200 None
+2023-02-15 10:46:12,384 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:46:12,664 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009779003&timestamp=1676454372382&signature=170a30b141048aa33173dd264b2e65e75f99383c4432fad60bff0416f189f9c8 HTTP/1.1" 200 None
+2023-02-15 10:46:12,669 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x103fc5e90>>: 'type' object is not iterable
+2023-02-15 10:46:12,669 - root - ERROR - Binance User Websocket connection error: 'type' object is not iterable
+2023-02-15 10:46:12,686 - root - INFO - Messages updated
+2023-02-15 10:46:14,187 - root - INFO - Messages updated
+2023-02-15 10:46:15,688 - root - INFO - Messages updated
+2023-02-15 10:46:17,189 - root - INFO - Messages updated
+2023-02-15 10:46:18,690 - root - INFO - Messages updated
+2023-02-15 10:46:20,192 - root - INFO - Messages updated
+2023-02-15 10:46:21,693 - root - INFO - Messages updated
+2023-02-15 10:48:33,197 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:48:33,261 - root - INFO - Messages updated
+2023-02-15 10:48:33,507 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676454512921 HTTP/1.1" 200 None
+2023-02-15 10:48:34,471 - websocket - INFO - Websocket connected
+2023-02-15 10:48:34,471 - root - INFO - Binance User Websocket connection opened
+2023-02-15 10:48:34,762 - root - INFO - Messages updated
+2023-02-15 10:48:36,263 - root - INFO - Messages updated
+2023-02-15 10:48:36,694 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:48:36,974 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 10:48:36,982 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:48:37,250 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 10:48:37,255 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:48:38,037 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676454517252&signature=8275c6272b61ebc615151d77178fb7a8ee1de7222749f646918ebbf6b863c373 HTTP/1.1" 200 None
+2023-02-15 10:48:38,040 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:48:38,325 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676454518039&signature=3c49952382a0f5ae319dba605e52bf2f5ffc3b35c6f8769011ce2aec30a569d0 HTTP/1.1" 200 None
+2023-02-15 10:48:38,329 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:48:38,603 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009780429&timestamp=1676454518327&signature=29808d1462ad30fb3787e8a21ca858c5722e061526a4f2abb360f84426c88c25 HTTP/1.1" 200 None
+2023-02-15 10:48:38,611 - root - INFO - Messages updated
+2023-02-15 10:48:40,112 - root - INFO - Messages updated
+2023-02-15 10:48:41,612 - root - INFO - Messages updated
+2023-02-15 10:48:43,113 - root - INFO - Messages updated
+2023-02-15 10:51:32,027 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:51:32,088 - root - INFO - Messages updated
+2023-02-15 10:51:32,777 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676454691715 HTTP/1.1" 200 None
+2023-02-15 10:51:33,589 - root - INFO - Messages updated
+2023-02-15 10:51:33,792 - websocket - INFO - Websocket connected
+2023-02-15 10:51:33,792 - root - INFO - Binance User Websocket connection opened
+2023-02-15 10:51:33,900 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:51:34,635 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 10:51:34,645 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:51:35,374 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 10:51:35,377 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:51:36,111 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676454695375&signature=ef2fb4d68f813a2d0d42cdfce180cfe7bed42cdff673a5705b37d7e94e7c85fa HTTP/1.1" 200 None
+2023-02-15 10:51:36,114 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:51:36,408 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676454696112&signature=da89b72920dbafa938ea892740197a72063463911f6085349b223afa180f5d74 HTTP/1.1" 200 None
+2023-02-15 10:51:36,413 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:51:36,708 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009781336&timestamp=1676454696410&signature=ac034dff2bf181f952fd979d8b1a11e7a1a6ad18be5af6b7f924a9e0add903d5 HTTP/1.1" 200 None
+2023-02-15 10:51:36,713 - root - INFO - Messages updated
+2023-02-15 10:51:38,214 - root - INFO - Messages updated
+2023-02-15 10:51:39,715 - root - INFO - Messages updated
+2023-02-15 10:51:41,216 - root - INFO - Messages updated
+2023-02-15 10:51:42,716 - root - INFO - Messages updated
+2023-02-15 10:55:08,560 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:55:08,598 - root - INFO - Messages updated
+2023-02-15 10:55:08,884 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676454908268 HTTP/1.1" 200 None
+2023-02-15 10:55:09,838 - websocket - INFO - Websocket connected
+2023-02-15 10:55:09,838 - root - INFO - Binance User Websocket connection opened
+2023-02-15 10:55:10,100 - root - INFO - Messages updated
+2023-02-15 10:55:11,600 - root - INFO - Messages updated
+2023-02-15 10:55:13,101 - root - INFO - Messages updated
+2023-02-15 10:55:13,136 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:55:13,414 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 10:55:13,435 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:55:13,740 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 10:55:13,744 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:55:14,473 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676454913742&signature=303fbf6d4492f8a471c30dff9e6599eac2216e50e86dcdbbea3760cba42db7fe HTTP/1.1" 200 None
+2023-02-15 10:55:14,478 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:55:14,759 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676454914475&signature=7fa1895c0abd0602dadc7a068af3df0de3d3e7af8bb956239c029b290a74adfd HTTP/1.1" 200 None
+2023-02-15 10:55:14,764 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 10:55:15,039 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009782275&timestamp=1676454914761&signature=0500639cade3a8b6b8ee6b6f209c2c732ef974d93a3dc912cad4a3826d642bd7 HTTP/1.1" 200 None
+2023-02-15 10:55:15,056 - root - INFO - Messages updated
+2023-02-15 10:55:16,557 - root - INFO - Messages updated
+2023-02-15 10:55:18,058 - root - INFO - Messages updated
+2023-02-15 11:16:39,314 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:16:39,386 - root - INFO - Messages updated
+2023-02-15 11:16:39,610 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676456198990 HTTP/1.1" 200 None
+2023-02-15 11:16:40,578 - websocket - INFO - Websocket connected
+2023-02-15 11:16:40,597 - root - INFO - Binance User Websocket connection opened
+2023-02-15 11:16:40,897 - root - INFO - Messages updated
+2023-02-15 11:16:42,398 - root - INFO - Messages updated
+2023-02-15 11:16:42,884 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:16:43,211 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 11:16:43,220 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:16:43,519 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 11:16:43,523 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:16:43,845 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676456203521&signature=2df176c37326fd29d6d046d1c14cb9aeb97b63a687cbae7553ef139726b4de7d HTTP/1.1" 200 None
+2023-02-15 11:16:43,850 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:16:44,589 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676456203847&signature=b80cd196d181cfdb95cbbd194f91b9bb69583181cba28817d2093a85e0a86a80 HTTP/1.1" 200 None
+2023-02-15 11:16:44,593 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:16:44,875 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009788940&timestamp=1676456204591&signature=54f85c97d80f8fae76841ea477be184b3ce3317ad5df5aff9c6f1cb2f22e4e7c HTTP/1.1" 200 None
+2023-02-15 11:16:44,878 - root - INFO - Messages updated
+2023-02-15 11:16:46,379 - root - INFO - Messages updated
+2023-02-15 11:16:47,880 - root - INFO - Messages updated
+2023-02-15 11:16:49,381 - root - INFO - Messages updated
+2023-02-15 11:16:50,882 - root - INFO - Messages updated
+2023-02-15 11:18:33,126 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:18:33,167 - root - INFO - Messages updated
+2023-02-15 11:18:33,872 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676456312826 HTTP/1.1" 200 None
+2023-02-15 11:18:34,668 - root - INFO - Messages updated
+2023-02-15 11:18:34,803 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:18:34,874 - websocket - INFO - Websocket connected
+2023-02-15 11:18:34,875 - root - INFO - Binance User Websocket connection opened
+2023-02-15 11:18:35,092 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 11:18:35,101 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:18:35,855 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 11:18:35,872 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:18:36,629 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676456315869&signature=52ae8d5e693562fb386fddda68d0f88c42d7c74e8edbbaa48edd2e7c06866085 HTTP/1.1" 200 None
+2023-02-15 11:18:36,633 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:18:36,928 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676456316631&signature=3f29f1d87ad315cc75c1849f25ca40716d71749cbbf243b6d36a17952e02ad6d HTTP/1.1" 200 None
+2023-02-15 11:18:36,932 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:18:37,676 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009789336&timestamp=1676456316930&signature=347a86dabf6e5a20541710f9cef3112fa4ba89afd8b0d168d91966e3e650f6b1 HTTP/1.1" 200 None
+2023-02-15 11:18:37,680 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:18:37,970 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1676456317678&signature=2474d43e091c919675b95a88fa9e2cfea1f7fc413583829fa7ad8cc587849a57 HTTP/1.1" 200 None
+2023-02-15 11:18:37,974 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:18:38,260 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/positionRisk?timestamp=1676456317972&signature=98452b558957fe1f42e21124169e135b43dddf91478a28bff50f5113790b62c7 HTTP/1.1" 200 None
+2023-02-15 11:18:38,265 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:18:38,564 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&type=MARKET&quantity=0.01&timestamp=1676456318262&signature=30be1d8eea0ba6de39e1eb3f1798154f2cbade2b663a1c01f22c490414c0c578 HTTP/1.1" 200 None
+2023-02-15 11:18:38,567 - root - INFO - Messages updated
+2023-02-15 11:18:40,069 - root - INFO - Messages updated
+2023-02-15 11:18:41,570 - root - INFO - Messages updated
+2023-02-15 11:18:43,072 - root - INFO - Messages updated
+2023-02-15 11:20:16,972 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:20:17,007 - root - INFO - Messages updated
+2023-02-15 11:20:17,330 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676456416653 HTTP/1.1" 200 None
+2023-02-15 11:20:18,302 - websocket - INFO - Websocket connected
+2023-02-15 11:20:18,313 - root - INFO - Binance User Websocket connection opened
+2023-02-15 11:20:18,507 - root - INFO - Messages updated
+2023-02-15 11:20:19,793 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:20:20,080 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 11:20:20,088 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:20:20,368 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 11:20:20,373 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:20:21,120 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676456420371&signature=a30ff8e241e88f7397f576b8adb5d36b141829a401815203c5762731818a8d04 HTTP/1.1" 200 None
+2023-02-15 11:20:21,124 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:20:21,908 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676456421121&signature=a39707d07e722f08410350d9da395873503f2ab750bce24e2db0b4be639385e0 HTTP/1.1" 200 None
+2023-02-15 11:20:21,913 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:20:22,213 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009789649&timestamp=1676456421910&signature=e1a5fb98c7dead9ec5e9cdf8bfa69232e406cbc2b26177a3a17e3d5a3f54c23a HTTP/1.1" 200 None
+2023-02-15 11:20:22,217 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:20:22,509 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1676456422215&signature=fc23075c3d5428cd499a26401730c0fdd923466bf50a869bf6cd070155d85065 HTTP/1.1" 200 None
+2023-02-15 11:20:22,514 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:20:23,251 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/positionRisk?timestamp=1676456422511&signature=c21d98623b2a43d37c30b157297e9a7354a80d83a1a3e7f5bdfbc2db1122cfa1 HTTP/1.1" 200 None
+2023-02-15 11:20:23,260 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:20:23,566 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&type=MARKET&quantity=0.01&timestamp=1676456423258&signature=6f73705fcc14d37d137534d3072ec71b8ffc5e7b47139b7ccdf973f9048fe575 HTTP/1.1" 200 None
+2023-02-15 11:20:23,568 - root - INFO - Messages updated
+2023-02-15 11:20:25,069 - root - INFO - Messages updated
+2023-02-15 11:20:26,570 - root - INFO - Messages updated
+2023-02-15 11:20:28,071 - root - INFO - Messages updated
+2023-02-15 11:20:29,572 - root - INFO - Messages updated
+2023-02-15 11:20:31,073 - root - INFO - Messages updated
+2023-02-15 11:21:56,932 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:21:56,991 - root - INFO - Messages updated
+2023-02-15 11:21:57,720 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676456516646 HTTP/1.1" 200 None
+2023-02-15 11:21:58,513 - root - INFO - Messages updated
+2023-02-15 11:21:58,691 - websocket - INFO - Websocket connected
+2023-02-15 11:21:58,699 - root - INFO - Binance User Websocket connection opened
+2023-02-15 11:21:58,875 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:21:59,171 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 11:21:59,180 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:21:59,913 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 11:21:59,918 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:22:00,213 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676456519915&signature=85b797e2569fc69601751c4d9829ff5ba3d7276ed3851744bfedbada03908927 HTTP/1.1" 200 None
+2023-02-15 11:22:00,217 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:22:00,955 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676456520215&signature=886b1264420b5ade12cb3e643b43d4946d4ef242909b2e614ea6ab2979e041a0 HTTP/1.1" 200 None
+2023-02-15 11:22:00,959 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:22:01,268 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009789896&timestamp=1676456520957&signature=8cee1929648421df4f9a707438fff41935fa3d4f1c6d0c1cbe91784f90ca9689 HTTP/1.1" 200 None
+2023-02-15 11:22:01,272 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:22:01,582 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1676456521270&signature=3502cd592ba543b19b7e6195555b33fbc5495cd0e39100999f986b740361fa46 HTTP/1.1" 200 None
+2023-02-15 11:22:01,586 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:22:02,333 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/positionRisk?timestamp=1676456521584&signature=e40a378d07972a35b4b9a3a67cdb6be3f4690f6ac12aef393563db98d2a590b2 HTTP/1.1" 200 None
+2023-02-15 11:22:02,362 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:22:02,642 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&type=MARKET&quantity=0.01&timestamp=1676456522359&signature=7085b1aa4f5a720e96d2da274e586012cf6599cad1fc2e59fda02de6b216dc8e HTTP/1.1" 200 None
+2023-02-15 11:22:02,651 - root - INFO - Messages updated
+2023-02-15 11:22:04,151 - root - INFO - Messages updated
+2023-02-15 11:22:05,660 - root - INFO - Messages updated
+2023-02-15 11:22:07,161 - root - INFO - Messages updated
+2023-02-15 11:24:48,255 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:24:48,321 - root - INFO - Messages updated
+2023-02-15 11:24:49,053 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676456687982 HTTP/1.1" 200 None
+2023-02-15 11:24:49,822 - root - INFO - Messages updated
+2023-02-15 11:24:50,051 - websocket - INFO - Websocket connected
+2023-02-15 11:24:50,052 - root - INFO - Binance User Websocket connection opened
+2023-02-15 11:24:51,323 - root - INFO - Messages updated
+2023-02-15 11:24:52,824 - root - INFO - Messages updated
+2023-02-15 11:24:53,258 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:24:54,516 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 11:24:54,526 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:24:54,987 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 11:24:54,992 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:24:55,448 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676456694989&signature=b6b925f059bfce37ad00c6ad8240d49d25c6c99c0392fea9eaf799e0c620bdb2 HTTP/1.1" 200 None
+2023-02-15 11:24:55,453 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:24:55,902 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676456695450&signature=36982bcc8bf8830f4953f7af300a63e8c5c36228d91a02e75bb96fbe5aead890 HTTP/1.1" 200 None
+2023-02-15 11:24:55,907 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:24:56,186 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009790533&timestamp=1676456695904&signature=d7506b944aa7c7b48611747518e5855d7fa0e484e439895d1d7ec7621f4e0cd1 HTTP/1.1" 200 None
+2023-02-15 11:24:56,191 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:24:56,469 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1676456696188&signature=c564211b428d4a5bf442ca9b6e10a762d7c716dcdacbc0d418ae8f052d1e3d05 HTTP/1.1" 200 None
+2023-02-15 11:24:56,475 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:24:56,910 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/positionRisk?timestamp=1676456696471&signature=59ea2bc763a9455bb52424cc48b2a3ba77ae75f1b19e1736f1633f5bdd1292f9 HTTP/1.1" 200 None
+2023-02-15 11:24:56,928 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:24:57,206 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&type=MARKET&quantity=0.01&timestamp=1676456696925&signature=5e9f0a46893eebe99533f63940078a8d7344928987ec3b4bf9842a546a45dd55 HTTP/1.1" 200 None
+2023-02-15 11:24:57,212 - root - INFO - Messages updated
+2023-02-15 11:24:58,712 - root - INFO - Messages updated
+2023-02-15 11:25:00,214 - root - INFO - Messages updated
+2023-02-15 11:25:01,714 - root - INFO - Messages updated
+2023-02-15 11:26:14,093 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:26:14,161 - root - INFO - Messages updated
+2023-02-15 11:26:14,426 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676456773811 HTTP/1.1" 200 None
+2023-02-15 11:26:15,389 - websocket - INFO - Websocket connected
+2023-02-15 11:26:15,389 - root - INFO - Binance User Websocket connection opened
+2023-02-15 11:26:15,662 - root - INFO - Messages updated
+2023-02-15 11:26:15,942 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:26:16,221 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 11:26:16,230 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:26:17,022 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 11:26:17,026 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:26:17,768 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676456777024&signature=1f209e964564ca8b7c912ad7fd7a477319504b7d6920028c915b56c4a3bfebaa HTTP/1.1" 200 None
+2023-02-15 11:26:17,773 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:26:18,511 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676456777770&signature=4c0717e9e9d84656e58b1828a83eb3a217b67955a18f92143c3e73c3189fcba6 HTTP/1.1" 200 None
+2023-02-15 11:26:18,516 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:26:18,807 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009790712&timestamp=1676456778513&signature=1a18e0ec73f55c7db5bcb8011b4b2c15540513cc6f14e4bf61c47c20183b0538 HTTP/1.1" 200 None
+2023-02-15 11:26:18,811 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:26:19,101 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x10ceb5cd0>>: string indices must be integers, not 'str'
+2023-02-15 11:26:19,101 - root - ERROR - Binance User Websocket connection error: string indices must be integers, not 'str'
+2023-02-15 11:26:19,108 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1676456778809&signature=bdf71014a0ff0bca9c738c408cd67b35a3bd99ef74ea3af7c8498f9c597d00fa HTTP/1.1" 200 None
+2023-02-15 11:26:19,112 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:26:19,428 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/positionRisk?timestamp=1676456779110&signature=31c9fa76cb3edb8832d728dc6964eb45c111e7cdc4394abd1c82b87e3117142d HTTP/1.1" 200 None
+2023-02-15 11:26:19,433 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:26:19,827 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&type=MARKET&quantity=0.01&timestamp=1676456779431&signature=81c9bdce7bb24b04bbab5e8779370bcc6671e64750c95ef7767f23fa225d4629 HTTP/1.1" 200 None
+2023-02-15 11:26:19,831 - root - INFO - Messages updated
+2023-02-15 11:26:19,833 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x10ceb5cd0>>: string indices must be integers, not 'str'
+2023-02-15 11:26:19,833 - root - ERROR - Binance User Websocket connection error: string indices must be integers, not 'str'
+2023-02-15 11:26:21,332 - root - INFO - Messages updated
+2023-02-15 11:26:22,834 - root - INFO - Messages updated
+2023-02-15 11:27:45,472 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:27:45,524 - root - INFO - Messages updated
+2023-02-15 11:27:46,256 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676456865196 HTTP/1.1" 200 None
+2023-02-15 11:27:47,024 - root - INFO - Messages updated
+2023-02-15 11:27:47,208 - websocket - INFO - Websocket connected
+2023-02-15 11:27:47,208 - root - INFO - Binance User Websocket connection opened
+2023-02-15 11:27:48,192 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:27:48,537 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 11:27:48,543 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:27:49,430 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 11:27:49,434 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:27:49,724 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676456869432&signature=95c61a744931058d98dea1e43bd8c3a47be3f30fc22d59ba197cfdd3c0fd1544 HTTP/1.1" 200 None
+2023-02-15 11:27:49,727 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:27:50,013 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676456869725&signature=964bd0a94ce7d699ef3df0af9f21c0e5afb743a193df3765dda16844ce41fbcc HTTP/1.1" 200 None
+2023-02-15 11:27:50,015 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:27:50,365 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009790922&timestamp=1676456870014&signature=a807bf9545932751964c5501fd4a586a565b0003c26e22a69406c1fb93169486 HTTP/1.1" 200 None
+2023-02-15 11:27:50,369 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:27:51,288 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x10e0dae90>>: string indices must be integers, not 'str'
+2023-02-15 11:27:51,288 - root - ERROR - Binance User Websocket connection error: string indices must be integers, not 'str'
+2023-02-15 11:27:51,291 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1676456870367&signature=d72176489dde879fc11dc15b67a5ad372ab7d450dc3dff1ffd1add5061cfba65 HTTP/1.1" 200 None
+2023-02-15 11:27:51,295 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:27:51,585 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/positionRisk?timestamp=1676456871292&signature=bff164498c7716503d0b12fd048b72105ffd56fb85a061b73ad5b7600e81d1a0 HTTP/1.1" 200 None
+2023-02-15 11:27:51,588 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:27:51,950 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x10e0dae90>>: string indices must be integers, not 'str'
+2023-02-15 11:27:51,950 - root - ERROR - Binance User Websocket connection error: string indices must be integers, not 'str'
+2023-02-15 11:27:51,954 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&type=MARKET&quantity=0.01&timestamp=1676456871587&signature=bc1afdde97e768b975e1482b0ba618ee3750623b4af32d389ea5cc4450b60d86 HTTP/1.1" 200 None
+2023-02-15 11:27:51,957 - root - INFO - Messages updated
+2023-02-15 11:27:53,458 - root - INFO - Messages updated
+2023-02-15 11:27:54,958 - root - INFO - Messages updated
+2023-02-15 11:29:03,939 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:29:03,978 - root - INFO - Messages updated
+2023-02-15 11:29:04,442 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676456943653 HTTP/1.1" 200 None
+2023-02-15 11:29:05,461 - websocket - INFO - Websocket connected
+2023-02-15 11:29:05,461 - root - INFO - Binance User Websocket connection opened
+2023-02-15 11:29:05,479 - root - INFO - Messages updated
+2023-02-15 11:29:06,136 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:29:06,601 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 11:29:06,610 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:29:06,948 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 11:29:06,952 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:29:07,325 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676456946950&signature=4cf566049dec611e04183d6dcafbbd7040ec24a1bfcc1bbd22682ccda3c853aa HTTP/1.1" 200 None
+2023-02-15 11:29:07,329 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:29:07,691 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676456947327&signature=b6de39af270213f45c6b82ce27c1ac67d3f0c948af1ddc63ecb939412d22a7dc HTTP/1.1" 200 None
+2023-02-15 11:29:07,696 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:29:07,982 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009791167&timestamp=1676456947693&signature=9e6209c089731f175a09f3dceb23eb01331d55c91dc26333748be4d41cb27bac HTTP/1.1" 200 None
+2023-02-15 11:29:07,987 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:29:08,277 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x106788cd0>>: string indices must be integers, not 'str'
+2023-02-15 11:29:08,277 - root - ERROR - Binance User Websocket connection error: string indices must be integers, not 'str'
+2023-02-15 11:29:08,284 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1676456947984&signature=072216419f56ad2ee0c66aca12fa1607d23a053ccc496dcfb431375469b008df HTTP/1.1" 200 None
+2023-02-15 11:29:08,288 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:29:09,033 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/positionRisk?timestamp=1676456948286&signature=ad46cfe1ff77703b001cbd446fff6b515b7a88bdc44745be663d5adc14728574 HTTP/1.1" 200 None
+2023-02-15 11:29:09,038 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:29:09,331 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&type=MARKET&quantity=0.01&timestamp=1676456949036&signature=efbc4fc8dc9e626ff07e0e8494745d12dd5b8f4ae36240a27697498b8aa37486 HTTP/1.1" 200 None
+2023-02-15 11:29:09,332 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x106788cd0>>: string indices must be integers, not 'str'
+2023-02-15 11:29:09,334 - root - ERROR - Binance User Websocket connection error: string indices must be integers, not 'str'
+2023-02-15 11:29:09,336 - root - INFO - Messages updated
+2023-02-15 11:29:10,837 - root - INFO - Messages updated
+2023-02-15 11:31:33,319 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:31:33,379 - root - INFO - Messages updated
+2023-02-15 11:31:34,099 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676457093040 HTTP/1.1" 200 None
+2023-02-15 11:31:34,880 - root - INFO - Messages updated
+2023-02-15 11:31:35,038 - websocket - INFO - Websocket connected
+2023-02-15 11:31:35,038 - root - INFO - Binance User Websocket connection opened
+2023-02-15 11:31:35,907 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:31:36,200 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 11:31:36,215 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:31:36,974 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 11:31:36,977 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:31:37,723 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676457096975&signature=ef6ee6b9f3bf5a9424ded6a3fdc4ea14e6fda36b3c58babb7e7a1a6908d02c42 HTTP/1.1" 200 None
+2023-02-15 11:31:37,727 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:31:38,197 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676457097725&signature=e0e5d5cac03636debb67c4a2c5488055d375fb215643946ff6640dccde347071 HTTP/1.1" 200 None
+2023-02-15 11:31:38,201 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:31:39,118 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009791847&timestamp=1676457098199&signature=cc426c9d50d38fc5b448e155b8b44f3e7bf931a0c3d8623639215a5857657abd HTTP/1.1" 200 None
+2023-02-15 11:31:39,123 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:31:39,860 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1676457099120&signature=e9ba3f89e17b849f223c5beb79aefb5db0e2ba22d13b6387ee39ce0f5ce8e22c HTTP/1.1" 200 None
+2023-02-15 11:31:39,863 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x105df2e90>>: string indices must be integers, not 'str'
+2023-02-15 11:31:39,863 - root - ERROR - Binance User Websocket connection error: string indices must be integers, not 'str'
+2023-02-15 11:31:39,866 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:31:40,448 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/positionRisk?timestamp=1676457099862&signature=8c6bf7a857da207c7601bdeddbf94f3d13c4786eefe8fe833b4f1e3b89ab02c8 HTTP/1.1" 200 None
+2023-02-15 11:31:40,453 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:31:40,938 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x105df2e90>>: string indices must be integers, not 'str'
+2023-02-15 11:31:40,938 - root - ERROR - Binance User Websocket connection error: string indices must be integers, not 'str'
+2023-02-15 11:31:40,947 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&type=MARKET&quantity=0.01&timestamp=1676457100450&signature=46b83caa89d349bc0bbd85c0562eafde1a828fffaa964c53e3437e7b418368cd HTTP/1.1" 200 None
+2023-02-15 11:31:40,951 - root - INFO - Messages updated
+2023-02-15 11:31:42,452 - root - INFO - Messages updated
+2023-02-15 11:31:43,954 - root - INFO - Messages updated
+2023-02-15 11:31:45,454 - root - INFO - Messages updated
+2023-02-15 11:31:46,956 - root - INFO - Messages updated
+2023-02-15 11:34:09,664 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:34:09,713 - root - INFO - Messages updated
+2023-02-15 11:34:09,959 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676457249402 HTTP/1.1" 200 None
+2023-02-15 11:34:10,929 - websocket - INFO - Websocket connected
+2023-02-15 11:34:10,929 - root - INFO - Binance User Websocket connection opened
+2023-02-15 11:34:11,215 - root - INFO - Messages updated
+2023-02-15 11:34:12,716 - root - INFO - Messages updated
+2023-02-15 11:34:13,804 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:34:14,093 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 11:34:14,101 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:34:14,871 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 11:34:14,876 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:34:15,158 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676457254873&signature=fb3bd5d1ebb6be76e82bb5d6bc3cdf55c295fc60397c7a12100fd61ac7b8f7e8 HTTP/1.1" 200 None
+2023-02-15 11:34:15,162 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:34:15,483 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676457255160&signature=5a05a2a3c090baed9d471509bd371aaca03fbb0d05e63691573e44f3b579e901 HTTP/1.1" 200 None
+2023-02-15 11:34:15,500 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:34:15,776 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009792584&timestamp=1676457255498&signature=d445b86e941467db86a81bf59f67491028661c716cec040d3ca10154029e9234 HTTP/1.1" 200 None
+2023-02-15 11:34:15,781 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:34:16,106 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x10ff07110>>: string indices must be integers, not 'str'
+2023-02-15 11:34:16,106 - root - ERROR - Binance User Websocket connection error: string indices must be integers, not 'str'
+2023-02-15 11:34:16,112 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1676457255778&signature=a93a3f61abc84efe9d422d2b5f774f99619a07e9aa389ec4f95b067b023d798c HTTP/1.1" 200 None
+2023-02-15 11:34:16,116 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:34:16,429 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/positionRisk?timestamp=1676457256113&signature=ea9826554c369f30ba915b67b29d1aa7aedf46ed115414adaf8ea190c05288eb HTTP/1.1" 200 None
+2023-02-15 11:34:16,434 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:34:16,730 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&type=MARKET&quantity=0.01&timestamp=1676457256432&signature=399d4f26e76963c2afe921e3095a5bf73f70000d9af6558d5fd9b021b253341d HTTP/1.1" 200 None
+2023-02-15 11:34:16,734 - root - INFO - Messages updated
+2023-02-15 11:34:16,734 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x10ff07110>>: string indices must be integers, not 'str'
+2023-02-15 11:34:16,734 - root - ERROR - Binance User Websocket connection error: string indices must be integers, not 'str'
+2023-02-15 11:34:18,235 - root - INFO - Messages updated
+2023-02-15 11:34:19,735 - root - INFO - Messages updated
+2023-02-15 11:36:59,388 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:36:59,439 - root - INFO - Messages updated
+2023-02-15 11:37:00,141 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676457419125 HTTP/1.1" 200 None
+2023-02-15 11:37:00,958 - root - INFO - Messages updated
+2023-02-15 11:37:01,107 - websocket - INFO - Websocket connected
+2023-02-15 11:37:01,107 - root - INFO - Binance User Websocket connection opened
+2023-02-15 11:37:01,224 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:37:01,983 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 11:37:01,992 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:37:02,307 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 11:37:02,312 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:37:03,080 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676457422309&signature=e54acbf8f3d3a426721285dc3512a9f39928504ae390151cdf0b40835cafa852 HTTP/1.1" 200 None
+2023-02-15 11:37:03,085 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:37:03,383 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676457423083&signature=0faeb92b07e7686b52f61f4bb528ad843e4fcb96ac025b5b23d76bd1ff05ab07 HTTP/1.1" 200 None
+2023-02-15 11:37:03,386 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:37:03,680 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009793577&timestamp=1676457423384&signature=6d127a5bf94f91561140a4a00c631284cd87f66cecd9ed70f1bf15ec50362721 HTTP/1.1" 200 None
+2023-02-15 11:37:03,685 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:37:03,977 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1676457423682&signature=1753bcc96faba8ede48ba2ffd9d30a8b7c17db223bec06e9a5e904ee8d859fea HTTP/1.1" 200 None
+2023-02-15 11:37:03,981 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x104d0ae90>>: string indices must be integers, not 'str'
+2023-02-15 11:37:03,981 - root - ERROR - Binance User Websocket connection error: string indices must be integers, not 'str'
+2023-02-15 11:37:03,982 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:37:04,269 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/positionRisk?timestamp=1676457423979&signature=bc5ebe3eb63096307db7c3e14527486d489d5d9cc11e7b4baa9cf46bdad0b566 HTTP/1.1" 200 None
+2023-02-15 11:37:04,273 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:37:05,045 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&type=MARKET&quantity=0.01&timestamp=1676457424271&signature=b5c84820d945f74f90ae109b85b487a271020a632c4fae9dc2d844e39dd9fde5 HTTP/1.1" 200 None
+2023-02-15 11:37:05,049 - root - INFO - Messages updated
+2023-02-15 11:37:05,052 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x104d0ae90>>: string indices must be integers, not 'str'
+2023-02-15 11:37:05,052 - root - ERROR - Binance User Websocket connection error: string indices must be integers, not 'str'
+2023-02-15 11:37:06,550 - root - INFO - Messages updated
+2023-02-15 11:37:08,051 - root - INFO - Messages updated
+2023-02-15 11:37:09,552 - root - INFO - Messages updated
+2023-02-15 11:43:28,614 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:43:28,684 - root - INFO - Messages updated
+2023-02-15 11:43:29,374 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676457808300 HTTP/1.1" 200 None
+2023-02-15 11:43:30,185 - root - INFO - Messages updated
+2023-02-15 11:43:30,341 - websocket - INFO - Websocket connected
+2023-02-15 11:43:30,341 - root - INFO - Binance User Websocket connection opened
+2023-02-15 11:43:30,851 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:43:31,205 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 11:43:31,212 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:43:31,984 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 11:43:31,988 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:43:32,368 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676457811985&signature=e1dfea8e840cf0eca2ed79edf99081cc78d304674225114df7bac9e117d52d69 HTTP/1.1" 200 None
+2023-02-15 11:43:32,378 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:43:32,659 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676457812369&signature=8a3308ecd6df7e4c47bdc83a7e86b8c48f34a8f3887793bc1703146af8524427 HTTP/1.1" 200 None
+2023-02-15 11:43:32,663 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:43:32,967 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009795375&timestamp=1676457812661&signature=f8230bffef694a585e62ed0d3cb251f16d678938cfe2010b775f55201ea1c460 HTTP/1.1" 200 None
+2023-02-15 11:43:32,972 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:43:33,258 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1676457812969&signature=3be4ade2ad5aa851cce5c4ab7b1425e7f4108dc58a6c0be39aa68bb4feb1e9eb HTTP/1.1" 200 None
+2023-02-15 11:43:33,261 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:43:33,263 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x107545e90>>: string indices must be integers, not 'str'
+2023-02-15 11:43:33,263 - root - ERROR - Binance User Websocket connection error: string indices must be integers, not 'str'
+2023-02-15 11:43:33,551 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/positionRisk?timestamp=1676457813259&signature=84d4dad71397da16d15b866d896a1d5351694e50840aec73859ae483ffd81960 HTTP/1.1" 200 None
+2023-02-15 11:43:33,555 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:43:33,866 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x107545e90>>: string indices must be integers, not 'str'
+2023-02-15 11:43:33,866 - root - ERROR - Binance User Websocket connection error: string indices must be integers, not 'str'
+2023-02-15 11:43:33,868 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&type=MARKET&quantity=0.01&timestamp=1676457813553&signature=69d7edf633757ac5eefeacfe79fff9c4a2a47a4c9116ff33ed8e3291f50e44e7 HTTP/1.1" 200 None
+2023-02-15 11:43:33,872 - root - INFO - Messages updated
+2023-02-15 11:43:35,374 - root - INFO - Messages updated
+2023-02-15 11:45:50,365 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:45:50,423 - root - INFO - Messages updated
+2023-02-15 11:45:51,156 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676457950059 HTTP/1.1" 200 None
+2023-02-15 11:45:51,924 - root - INFO - Messages updated
+2023-02-15 11:45:52,090 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:45:52,123 - websocket - INFO - Websocket connected
+2023-02-15 11:45:52,123 - root - INFO - Binance User Websocket connection opened
+2023-02-15 11:45:52,394 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 11:45:52,402 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:45:52,695 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 11:45:52,699 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:45:52,979 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676457952697&signature=cb1db7aa594a0be3a126f4bd9de37bfda1fadf701e498c6856dbb9d3fe1cc248 HTTP/1.1" 200 None
+2023-02-15 11:45:52,985 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:45:53,718 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676457952981&signature=b405333b8f6eac998c84ed14b2ff5ff4c8b6666833cc7de80667e38ce90a733c HTTP/1.1" 200 None
+2023-02-15 11:45:53,721 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:45:54,009 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009796104&timestamp=1676457953719&signature=b47762c5b2fbef701493168cabc46d6aa14c698f576a43c799c3e82923675318 HTTP/1.1" 200 None
+2023-02-15 11:45:54,011 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:45:54,295 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1676457954010&signature=ff6711e564611fdbcc5701624577542172c7f8065c156f156029c9af396266e2 HTTP/1.1" 200 None
+2023-02-15 11:45:54,298 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:45:54,298 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x10d9026d0>>: 'dict' object has no attribute 'update_time'
+2023-02-15 11:45:54,298 - root - ERROR - Binance User Websocket connection error: 'dict' object has no attribute 'update_time'
+2023-02-15 11:45:54,589 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/positionRisk?timestamp=1676457954296&signature=64afc3ef82e0aa97570764f547f437a4b608c223b702cdeecba0d91f166c1fa7 HTTP/1.1" 200 None
+2023-02-15 11:45:54,593 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:45:54,873 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&type=MARKET&quantity=0.01&timestamp=1676457954591&signature=2bdddef216f5f32c8bce68e893e5e07bc7fdbaf3d5afa3d00aca0208b9620b4c HTTP/1.1" 200 None
+2023-02-15 11:45:54,875 - websocket - ERROR - error from callback <bound method BinanceTestnetWebsocket._on_message of <connectors.websocket.BinanceTestnetWebsocket object at 0x10d9026d0>>: 'dict' object has no attribute 'update_time'
+2023-02-15 11:45:54,876 - root - ERROR - Binance User Websocket connection error: 'dict' object has no attribute 'update_time'
+2023-02-15 11:45:54,881 - root - INFO - Messages updated
+2023-02-15 11:45:56,381 - root - INFO - Messages updated
+2023-02-15 11:45:57,882 - root - INFO - Messages updated
+2023-02-15 11:45:59,382 - root - INFO - Messages updated
+2023-02-15 11:46:00,883 - root - INFO - Messages updated
+2023-02-15 11:47:50,118 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:47:50,157 - root - INFO - Messages updated
+2023-02-15 11:47:50,866 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/listenKey?timestamp=1676458069807 HTTP/1.1" 200 None
+2023-02-15 11:47:51,657 - root - INFO - Messages updated
+2023-02-15 11:47:51,875 - websocket - INFO - Websocket connected
+2023-02-15 11:47:51,875 - root - INFO - Binance User Websocket connection opened
+2023-02-15 11:47:51,913 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:47:52,652 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-15 11:47:52,661 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:47:53,453 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/premiumIndex?symbol=ETHUSDT HTTP/1.1" 200 None
+2023-02-15 11:47:53,458 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:47:53,731 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=LIMIT&quantity=0.01&price=1000&timeInForce=GTC&timestamp=1676458073455&signature=40cb2dbdc79a9baee1d33cd881605b0c5c43d57599aa2207ec3c91404891d069 HTTP/1.1" 200 None
+2023-02-15 11:47:53,736 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:47:54,009 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=ETHUSDT&timestamp=1676458073733&signature=abcc65a87553e88e8097c3a86c99de5ad0733d2c1890bfa29c2ba5e6ff2f8d0e HTTP/1.1" 200 None
+2023-02-15 11:47:54,013 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:47:54,298 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?symbol=ETHUSDT&orderId=1009796748&timestamp=1676458074011&signature=81897ebbc31759baf11c1fdf474865898c76e7bea33d97dbece416164d49800c HTTP/1.1" 200 None
+2023-02-15 11:47:54,301 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:47:54,572 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1676458074299&signature=d054b4d3cb743ae86c540539840c03ede82fba7d8912c1f83182eb3147512d64 HTTP/1.1" 200 None
+2023-02-15 11:47:54,576 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:47:55,332 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/positionRisk?timestamp=1676458074574&signature=8c90093b461dcab4369f024eea2993a4c66b3b81bf45a811cf012ec9b2d474ba HTTP/1.1" 200 None
+2023-02-15 11:47:55,338 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-15 11:47:55,615 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=ETHUSDT&side=SELL&type=MARKET&quantity=0.01&timestamp=1676458075335&signature=947fc125a73d8db00947edbdf85d4b4d71526ad13f962410859cdde0299c6c30 HTTP/1.1" 200 None
+2023-02-15 11:47:55,621 - root - INFO - Messages updated
+2023-02-15 11:47:57,140 - root - INFO - Messages updated
+2023-02-15 11:47:58,641 - root - INFO - Messages updated

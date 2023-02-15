@@ -49,6 +49,7 @@ class BinanceTestnetApi:
         response = self._make_request("GET", "/fapi/v1/premiumIndex", data)
         if response is not None and response:
             result = MarkPrice(response)
+            result.update_time = (time.time() * 1000)
         else:
             result = None
             logger.warning("There is no mark price for contract with symbol: " + contract.symbol)
