@@ -60,5 +60,5 @@ class StrategyFrame(tk.Frame):
             self._entries[name].config(state="disabled")
         # For testing
         params = {'contract': 'ETHUSDT', 'lower_price': 1000, 'upper_price': 2000, 'grids': 10, 'initial_margin': 1000}
-        self._strategy.create(params)
-        self._messages.add_msg("Grid is launched !")
+        msg = self._strategy.create(params)
+        self._messages.add_msg(msg)

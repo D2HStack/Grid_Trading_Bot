@@ -17,7 +17,7 @@ class Contract:
         self.quote_asset = info['quoteAsset']
         self.maint_margin_percent = float(info['maintMarginPercent']) # originally a string
         self.price_precision = (info['pricePrecision'])
-        self.quantity_precision = (info['quantityPrecision'])
+        self.quantity_precision = ((info['quantityPrecision']))
         self.required_margin_percent = float(info['requiredMarginPercent']) # originally a string
         self.max_price = float(info['filters'][0]['maxPrice'])
         self.min_price = float(info['filters'][0]['minPrice'])
@@ -81,3 +81,4 @@ class MarkPrice:
         self.symbol = (info['symbol'])
         self.mark_price = float(info['markPrice'])
         self.time = 0
+

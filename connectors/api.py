@@ -128,9 +128,13 @@ class BinanceTestnetApi:
         data['symbol'] = contract.symbol
         data['side'] = side
         data['type'] = order_type
-        data['quantity'] = quantity
-        if price is not None:
-            data['price'] = price
+        result = dict()
+        if self.check_quantity(contract, quantity):
+            data['quantity'] = self.round_quantity(contract, quantity)
+        else:
+            return None
+        if self.check_price(contract, price):
+            data['price'] = self.round_price(contract, price)
         if tif is not None:
             data['timeInForce'] = tif
         data['timestamp'] = int(time.time() * 1000)
@@ -217,4 +221,34 @@ class BinanceTestnetApi:
         else:
             logger.error("Error while making %s request to %s (error code %s)", method, endpoint, response.json(),
                          response.status_code)
+
+    # Check price in filters
+    def check_price(self, contract: Contract, price: float) -> bool:
+        min_price = contract.min_price
+        max_price = contract.max_price
+        result = True
+        if price is None or price > max_price or price < min_price:
+            result = False
+        return result
+
+    # Check quantity in filters
+    def check_quantity(self, contract: Contract, quantity: float) -> bool:
+        min_quantity = contract.min_quantity
+        max_quantity = contract.max_quantity
+        result = True
+        if quantity is None or quantity > max_quantity or quantity < min_quantity:
+            result = False
+        return result
+
+    # Round price to price precision
+    def round_price(self, contract: Contract, price: float) -> float:
+        tick_size = (contract.tick_size)
+        price_precision = (contract.price_precision)
+        return round(round(price / tick_size) * tick_size, price_precision)
+
+    # Round quantity to quantity precision
+    def round_quantity(self, contract: Contract, price: float) -> float:
+        step_size = (contract.step_size)
+        quantity_precision = (contract.quantity_precision)
+        return round(round(price / step_size) * step_size, quantity_precision)
 
