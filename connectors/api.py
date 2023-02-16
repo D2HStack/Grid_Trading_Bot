@@ -76,17 +76,18 @@ class BinanceTestnetApi:
                 'available': self.get_balances()[contract.quote_asset].max_withdraw_amount}
 
     # Get the order status based on order ID number. Account/Trades Endpoints/Query Order (USER_DATA)
-    def get_order_status(self, contract: Contract, order_id: int) -> OrderStatus:
+    def get_order_status(self, contract: Contract, order_id: int) -> Order:
         data = dict()
         data['symbol'] = contract.symbol
         data['orderId'] = order_id
         data['timestamp'] = int(time.time() * 1000)
         data['signature'] = self._generate_signature(data)
         response = self._make_request("GET", "/fapi/v1/order", data)
+        response['category'] = 'status'
         if response is not None and response:
             order_time = response['time']
             update_time = response['updateTime']
-            result = OrderStatus(response)
+            result = Order(response)
             result.order_time = order_time
             result.update_time = update_time
         else:
@@ -94,36 +95,38 @@ class BinanceTestnetApi:
         return result
 
     # Get all the open orders for a contract Account/Trades Endpoints/Current Open Order (USER_DATA)
-    def get_open_orders(self, contract: Contract) -> typing.List[OrderStatus]:
+    def get_open_orders(self, contract: Contract) -> typing.List[Order]:
         data = dict()
         data['symbol'] = contract.symbol
         data['timestamp'] = int(time.time() * 1000)
         data['signature'] = self._generate_signature(data)
-        response = self._make_request("GET", "/fapi/v1/openOrders", data)
-        if response is not None and response:
+        responses = self._make_request("GET", "/fapi/v1/openOrders", data)
+        if responses is not None and responses:
             result = []
-            for i in range(0, len(response)):
-                result.append(OrderStatus(response[i]))
+            for i in range(0, len(responses)):
+                responses[i]['category'] = 'status'
+                result.append(Order(responses[i]))
         else:
             return None
         return result
 
     # Get all positions. Account/Trades Endpoints/Position Information (USER_DATA)
-    def get_positions(self) -> typing.Dict[str, PositionStatus]:
+    def get_positions(self) -> typing.Dict[str, Position]:
         data = dict()
         data['timestamp'] = int(time.time() * 1000)
         data['signature'] = self._generate_signature(data)
         responses = self._make_request("GET", "/fapi/v1/positionRisk", data)
+        result = dict()
         if responses is not None and responses:
-            result = dict()
             for response in responses:
-                result[response['symbol']] = PositionStatus(response)
+                response['category'] = 'status'
+                result[response['symbol']] = Position(response)
         return result
 
     ##############  ORDER MANAGEMENT  ########################
     # Place an order. Account/Trades Endpoints/New Order (TRADE)
     def place_order(self, contract: Contract, side: str, quantity: float, order_type: str, price=None,
-                    tif=None) -> OrderStatus:
+                    tif=None) -> Order:
         data = dict()
         data['symbol'] = contract.symbol
         data['side'] = side
@@ -140,10 +143,11 @@ class BinanceTestnetApi:
         data['timestamp'] = int(time.time() * 1000)
         data['signature'] = self._generate_signature(data)
         response = self._make_request("POST", "/fapi/v1/order", data)
+        response['category'] = 'status'
         if response is not None and response:
             order_time = data['timestamp']
             update_time = response['updateTime']
-            result = OrderStatus(response)
+            result = Order(response)
             result.order_time = order_time
             result.update_time = update_time
         else:
@@ -151,23 +155,24 @@ class BinanceTestnetApi:
         return result
 
     # Cancel an order. Account/Trades Endpoints/Cancel Order (TRADE)
-    def cancel_order(self, contract: Contract, order_id: int) -> OrderStatus:
+    def cancel_order(self, contract: Contract, order_id: int) -> Order:
         data = dict()
         data['symbol'] = contract.symbol
         data['orderId'] = order_id
         data['timestamp'] = int(time.time() * 1000)
         data['signature'] = self._generate_signature(data)
-        order_status = self._make_request("DELETE", "/fapi/v1/order", data)
-        if order_status is not None:
+        response = self._make_request("DELETE", "/fapi/v1/order", data)
+        response['category'] = 'status'
+        if response is not None:
             order_time = data['timestamp']
             update_time = order_time
-            order_status = OrderStatus(order_status)
-            order_status.order_time = order_time
-            order_status.update_time = update_time
-        return order_status
+            result = Order(response)
+            result.order_time = order_time
+            result.update_time = update_time
+        return result
 
     # Cancel all open orders for a contract
-    def cancel_all_open_orders(self, contract: Contract) -> typing.List[OrderStatus]:
+    def cancel_all_open_orders(self, contract: Contract) -> typing.List[Order]:
         canceled_open_orders = []
         clear = False
         open_orders = self.get_open_orders(contract)

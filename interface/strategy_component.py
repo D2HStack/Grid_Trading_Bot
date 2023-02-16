@@ -3,6 +3,7 @@ import tkinter as tk
 from interface.styling import *
 from strategy import GridTrading
 from interface.messages_component import Messages
+from models import *
 import logging
 
 logger = logging.getLogger()
@@ -64,8 +65,8 @@ class StrategyFrame(tk.Frame):
             params[name] = self._params[index]['value']
             self._entries[name].config(state="disabled")
         # For testing
-        params = {'contract': 'ETHUSDT', 'lower_price': 1000, 'upper_price': 2000, 'grids': 5, 'initial_margin': 1000}
-        msg = self._strategy.create(params)
+        params = GridParam({'symbol': 'ETHUSDT', 'lower_price': 1000, 'upper_price': 2000, 'grids': 5, 'initial_margin': 1000})
+        msg = self._strategy.create(params)['msg']
         self._messages.add_msg(msg)
 
     # Close button

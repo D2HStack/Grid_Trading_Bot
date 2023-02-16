@@ -16,8 +16,8 @@ class OrdersFrame(tk.Frame):
         self._api = api
         self._strategy = strategy
         self._headers = [{'label': 'Side', 'name': 'side'}, {'label': 'Price', 'name': 'price'}, {'label': 'Quantity', 'name': 'quantity'}]
+        self._params = self._strategy.get_params()
         self._initial = True
-        self._grids = None
         self._orders = dict()
         self._order_var = dict()
         self._order_label = dict()
@@ -34,13 +34,13 @@ class OrdersFrame(tk.Frame):
         if self._strategy.get_active():
             orders = self._strategy.get_open_orders()
             orders.sort(key=lambda o: o.price, reverse=True)
-            self._grids = self._strategy.get_grids()
+            #grids = self._params.grids
             if self._initial:
                 row = 1
                 for order in orders:
                     if order is not None and order:
                         price_str = str(round(order.price, 8))
-                        print(str(order.symbol) + " " + str(order.side) + " " + str(order.price))
+                        #print(str(order.symbol) + " " + str(order.side) + " " + str(order.price))
                         self._orders[price_str] = order
                         self._order_var[price_str] = dict()
                         self._order_label[price_str] = dict()
@@ -58,11 +58,12 @@ class OrdersFrame(tk.Frame):
                 row = 1
                 for price_str in self._orders:
                     index = orders.index(self._orders[price_str])
-
+    # Build the initial book order
+    #def _build(self, orders: typing.List):
 
 
     # Change font color depending on side
-    def _font(self, order: OrderStatus) -> str:
+    def _font(self, order: Order) -> str:
         if order.side == "BUY":
             return FG_COLOR_BUY
         elif order.side == "SELL":

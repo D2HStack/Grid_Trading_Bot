@@ -50,10 +50,11 @@ class BinanceTestnetWebsocket:
         if "e" in data:
             # Get order updates
             if data['e'] == "ORDER_TRADE_UPDATE":
-                order_update = OrderUpdate(data['o'])
-                order_update.update_time = (time.time() * 1000)
-                self._strategy.process_order_update(order_update)
-                order_update = OrderUpdate(data['o'])
+                data['o']['category'] = 'update'
+                order = Order(data['o'])
+                order.update_time = (time.time() * 1000)
+                self._strategy.process_order(order)
+                #order = Order(data['o'])
             # Get account updates
             if data['e'] == "ACCOUNT_UPDATE":
                 account_update = data['a']
@@ -65,12 +66,13 @@ class BinanceTestnetWebsocket:
                     balance_update = BalanceUpdate(balance_update)
                     balance_update.update_time = (time.time() * 1000)
                     self._strategy.process_balance_update(balance_update)
-                position_updates = account_update['P']
+                positions = account_update['P']
                 # Positions
-                for position_update in position_updates:
-                    position_update = PositionUpdate(position_update)
-                    position_update.update_time = (time.time() * 1000)
-                    self._strategy.process_position_update(position_update)
+                for position in positions:
+                    position['category'] = 'update'
+                    position = Position(position)
+                    position.update_time = (time.time() * 1000)
+                    self._strategy.process_position(position)
 
     ##############  UTILITY  ########################
     # Make requests to the API
