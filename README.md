@@ -2,10 +2,7 @@
 
 ## Requirements
 
-python 3.11
-PyCharm
-Git install
-pip
+> Python, PyCharm, Git
 
 ## Use the app in PyCharm
 > 👉 **Step 1** - Download the code from the GH repository (using `GIT`)

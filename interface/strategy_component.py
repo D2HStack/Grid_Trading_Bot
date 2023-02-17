@@ -92,7 +92,7 @@ class StrategyFrame(tk.Frame):
             name = param['name']
             params[name] = self._param_headers[index]['value']
             self._param_entries[name].config(state="disabled")
-        params = ({'symbol': 'ETHUSDT', 'lower_price': 1680, 'upper_price': 1710, 'grids': 30, 'initial_margin': 1000})
+        #params = ({'symbol': 'ETHUSDT', 'lower_price': 1680, 'upper_price': 1710, 'grids': 30, 'initial_margin': 1000})
         msg = self._strategy.create(GridParam(params))['msg']
         self._messages.add_msg(msg)
 
