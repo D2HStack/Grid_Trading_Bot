@@ -11,26 +11,48 @@ logger = logging.getLogger()
 class StrategyFrame(tk.Frame):
     def __init__(self, strategy: GridTrading, messages: Messages, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self._params = [{'name': 'contract', 'label': 'Contract', 'value': None}, {'name':'lower_price', 'label': 'Lower Price', 'value': None}, {'name': 'upper_price', 'label': 'Upper Price', 'value': None}, {'name': 'grids', 'label': 'Grids', 'value': None}, {'name': 'initial_margin', 'label': 'Initial Margin', 'value': None}, ]
         self._strategy = strategy
         self._messages = messages
-        self._labels = dict()
-        self._entries = dict()
-        self._on_returns = dict()
+        self._param_title = "Parameters"
+        self._param_headers = [{'name': 'contract', 'label': 'Contract', 'value': None}, {'name':'lower_price', 'label': 'Lower Price', 'value': None}, {'name': 'upper_price', 'label': 'Upper Price', 'value': None}, {'name': 'grids', 'label': 'Grids', 'value': None}, {'name': 'initial_margin', 'label': 'Initial Margin', 'value': None}, ]
+        self._param_labels = dict()
+        self._param_entries = dict()
+        self._order_title = "Order Monitoring"
+        self._order_headers = [{'name': 'open_orders', 'label': 'Open Orders'}, {'name': 'filled_orders', 'label': 'Filled Orders'}, {'name': 'unmatched_orders', 'label': 'Unmatched Orders'}, {'name': 'matched_orders', 'label': 'Matched Orders'},]
+        self._order_labels = dict()
+        self._order_vars = dict()
+        self._pnl_title = "P&L Monitoring"
+        self._pnl = [{'name': 'open_orders', 'label': 'Open Orders'},
+                            {'name': 'filled_orders', 'label': 'Filled Orders'},
+                            {'name': 'unmatched_orders', 'label': 'Unmatched Orders'},
+                            {'name': 'matched_orders', 'label': 'Matched Orders'}, ]
+        self._pnl_labels = dict()
+        self._pnl_vars = dict()
 
         ################################  FRAMES AND WIDGETS  ###########################################################
-        for param in self._params:
-            index = self._params.index(param)
+        # Strategy parameters
+        self._param_title_label = tk.Label(self, text=self._param_title, justify=tk.LEFT, bg=BG_COLOR, fg=FG_COLOR, font=TITLE_FONT)
+        self._param_title_label.pack(side=tk.TOP)
+        for index,param in enumerate(self._param_headers):
             name = param['name']
-            self._labels[name] = tk.Label(self, text=self._params[index]['label'],  justify=tk.LEFT, bg=BG_COLOR, fg=FG_COLOR, font=BOLD_FONT)
-            self._labels[name].pack(side=tk.TOP)
-            self._entries[name] = tk.Entry(self, fg=FG_COLOR, justify=tk.LEFT, insertbackground=FG_COLOR, bg=BG_COLOR_2)
-            self._entries[name].bind("<Return>", self._on_return(param))
-            self._entries[name].pack(side=tk.TOP)
+            self._param_labels[name] = tk.Label(self, text=self._param_headers[index]['label'],  justify=tk.LEFT, bg=BG_COLOR, fg=FG_COLOR, font=BOLD_FONT)
+            self._param_labels[name].pack(side=tk.TOP)
+            self._param_entries[name] = tk.Entry(self, fg=FG_COLOR, justify=tk.LEFT, insertbackground=FG_COLOR, bg=BG_COLOR_2)
+            self._param_entries[name].bind("<Return>", self._on_return(param))
+            self._param_entries[name].pack(side=tk.TOP)
         self._create_button = tk.Button(self, text="CREATE", font=BUTTON_FONT,
                                                  command=self._on_submit_create, bg=BG_COLOR_2,
                                                  fg=FG_COLOR_BUTTON)
         self._create_button.pack(side=tk.TOP)
+        # Order monitoring
+        self._order_title_label = tk.Label(self, text=self._order_title, justify=tk.LEFT, bg=BG_COLOR, fg=FG_COLOR,
+                                            font=TITLE_FONT)
+        self._order_title_label.pack(side=tk.TOP)
+        for index, indicator in enumerate(self._order_headers):
+            name = indicator['name']
+            self._order_vars[name] = tk.StringVar()
+            self._order_labels[name] = tk.Label(self, textvariable=self._order_vars[name], justify=tk.LEFT, bg=BG_COLOR, fg=FG_COLOR, font=BOLD_FONT)
+            self._order_labels[name].pack(side=tk.TOP)
         self._close_button = tk.Button(self, text="CLOSE", font=BUTTON_FONT,
                                         command=self._on_submit_close, bg=BG_COLOR_2,
                                         fg=FG_COLOR_BUTTON, state='disabled')
@@ -47,7 +69,7 @@ class StrategyFrame(tk.Frame):
                     str(self._params[index]['label']) + " updated to:" + str(self._params[index]['value']))
                 if index < len(self._params) - 1:
                     next_param = self._params[index+1]
-                    self._entries[next_param['name']].focus_set()
+                    self._param_entries[next_param['name']].focus_set()
             else:
                 logger.warning("Nothing entered")
         return _get_value
@@ -59,13 +81,13 @@ class StrategyFrame(tk.Frame):
         self._create_button.config(state="disabled")
         self._close_button.config(state="normal")
         params = dict()
-        for param in self._params:
-            index = self._params.index(param)
+        for param in self._param_headers:
+            index = self._param_headers.index(param)
             name = param['name']
-            params[name] = self._params[index]['value']
-            self._entries[name].config(state="disabled")
+            params[name] = self._param_headers[index]['value']
+            self._param_entries[name].config(state="disabled")
         # For testing
-        params = GridParam({'symbol': 'ETHUSDT', 'lower_price': 1000, 'upper_price': 2000, 'grids': 5, 'initial_margin': 1000})
+        params = GridParam({'symbol': 'ETHUSDT', 'lower_price': 1665, 'upper_price': 1685, 'grids': 10, 'initial_margin': 200})
         msg = self._strategy.create(params)['msg']
         self._messages.add_msg(msg)
 
@@ -76,10 +98,15 @@ class StrategyFrame(tk.Frame):
         self._create_button.config(state="normal")
         self._close_button.config(state="disabled")
         params = dict()
-        for param in self._params:
-            index = self._params.index(param)
+        for param in self._param_headers:
+            index = self._param_headers.index(param)
             name = param['name']
-            #params[name] = self._params[index]['value']
-            self._entries[name].config(state="normal")
+            self._param_entries[name].config(state="normal")
         msg = self._strategy.close()
         self._messages.add_msg(msg)
+
+    # Set value of an indicator
+    def update_orders(self):
+        for index,indicator in enumerate(self._order_headers):
+            name = indicator['name']
+            self._order_vars[name].set(str(self._order_headers[index]['label']) + ": " + str(len(self._strategy.get(name))))

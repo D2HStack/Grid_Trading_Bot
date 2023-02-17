@@ -2,6 +2,7 @@
 # Display the interface
 
 import tkinter as tk
+import datetime
 from interface.styling import *
 from strategy import GridTrading
 from connectors.api import BinanceTestnetApi
@@ -20,7 +21,6 @@ class Root(tk.Tk):
         self._strategy = strategy
         self._api = api
         self._websocket = websocket
-        self._messages_frame = Messages()
         # Window
         self.title("Grid Trading")
         # Divide the window in 2 frames
@@ -31,8 +31,8 @@ class Root(tk.Tk):
         # Frames
         self._messages_frame = Messages(self._right_frame, bg=BG_COLOR)
         self._messages_frame.pack(side=tk.TOP)
-        self._orders_frame = OrdersFrame(self._api, self._strategy, self._right_frame, bg=BG_COLOR)
-        self._orders_frame.pack(side=tk.TOP)
+        self._open_orders_frame = OrdersFrame([{'label': 'Time', 'name': 'order_time', 'func':lambda t:datetime.datetime.fromtimestamp(int(t/1e3)).strftime('%d-%m-%Y %H:%M:%S') }, {'label': 'Price', 'name': 'price', 'func': lambda x:str(x)}, {'label': 'Side', 'name': 'side', 'func': lambda x:str(x)}, {'label': 'Quantity', 'name': 'quantity', 'func': lambda x:str(x)}], "Open Orders", self._right_frame, bg=BG_COLOR)
+        self._open_orders_frame.pack(side=tk.TOP)
         self._strategy_frame = StrategyFrame(self._strategy, self._messages_frame, self._left_frame, bg=BG_COLOR)
         self._strategy_frame.pack(side=tk.TOP)
         # Initialising update
@@ -43,8 +43,9 @@ class Root(tk.Tk):
         try:
             # Update frames
             self._messages_frame.update_msg()
-            self._orders_frame.update()
-
+            open_orders = self._strategy.get('open_orders')
+            self._open_orders_frame.update(open_orders)
+            self._strategy_frame.update_orders()
 
         except RuntimeError as e:
             print("Error while updating interface: %s", e)

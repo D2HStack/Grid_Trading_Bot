@@ -15,7 +15,7 @@ logger = logging.getLogger()
 
 class BinanceTestnetWebsocket:
     def __init__(self, strategy: GridTrading):
-        print("Hello from BinanceTestnetWebsocket")
+        #print("Hello from BinanceTestnetWebsocket")
         self._strategy = strategy
         self._HEADERS = {'X-MBX-APIKEY': PUBLIC_KEY}
         # User Websockets
@@ -54,25 +54,24 @@ class BinanceTestnetWebsocket:
                 order = Order(data['o'])
                 order.update_time = (time.time() * 1000)
                 self._strategy.process_order(order)
-                #order = Order(data['o'])
             # Get account updates
             if data['e'] == "ACCOUNT_UPDATE":
                 account_update = data['a']
-                print("account update")
-                print(account_update)
+                #print("account update")
+                #print(account_update)
                 # Balances
                 balance_updates = account_update['B']
                 for balance_update in balance_updates:
                     balance_update = BalanceUpdate(balance_update)
                     balance_update.update_time = (time.time() * 1000)
-                    self._strategy.process_balance_update(balance_update)
+                    #self._strategy.process_balance_update(balance_update)
                 positions = account_update['P']
                 # Positions
                 for position in positions:
                     position['category'] = 'update'
                     position = Position(position)
                     position.update_time = (time.time() * 1000)
-                    self._strategy.process_position(position)
+                    #self._strategy.process_position(position)
 
     ##############  UTILITY  ########################
     # Make requests to the API

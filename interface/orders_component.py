@@ -1,7 +1,7 @@
 # Display orders ranked by price with mrk price and color depending on side
 import tkinter as tk
 import typing
-from datetime import datetime
+import datetime
 from interface.styling import *
 from connectors.api import BinanceTestnetApi
 from strategy import GridTrading
@@ -11,61 +11,76 @@ import logging
 logger = logging.getLogger()
 
 class OrdersFrame(tk.Frame):
-    def __init__(self, api: BinanceTestnetApi, strategy: GridTrading, *args, **kwargs):
+    def __init__(self, headers: typing.List[dict], title: str, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self._api = api
-        self._strategy = strategy
-        self._headers = [{'label': 'Side', 'name': 'side'}, {'label': 'Price', 'name': 'price'}, {'label': 'Quantity', 'name': 'quantity'}]
-        self._params = self._strategy.get_params()
-        self._initial = True
-        self._orders = dict()
-        self._order_var = dict()
-        self._order_label = dict()
-        # Position headers
-        self._headers_label = dict()
-        col = 0
-        for header in self._headers:
-            self._headers_label[header['name']] = tk.Label(self, text=header['label'],  justify=tk.LEFT, bg=BG_COLOR, fg=FG_COLOR, font=BOLD_FONT)
-            self._headers_label[header['name']].grid(row=0, column=col)
-            col += 1
+        self._headers = headers
+        self._length = 0
+        self._order_vars = []
+        self._order_labels = []
+        # Build headers
+        self._headers_label = []
+        self._title = tk.Label(self, text=title,  justify=tk.LEFT, bg=BG_COLOR, fg=FG_COLOR, font=TITLE_FONT)
+        self._title.grid(row=0, column=0)
+        for col, header in enumerate(self._headers):
+            self._headers_label.append(tk.Label(self, text=header['label'],  justify=tk.LEFT, bg=BG_COLOR, fg=FG_COLOR, font=BOLD_FONT))
+            self._headers_label[col].grid(row=1, column=col)
 
-    # Build a table of orders
-    def update(self):
-        if self._strategy.get_active():
-            orders = self._strategy.get_open_orders()
-            orders.sort(key=lambda o: o.price, reverse=True)
-            #grids = self._params.grids
-            if self._initial:
-                row = 1
-                for order in orders:
-                    if order is not None and order:
-                        price_str = str(round(order.price, 8))
-                        #print(str(order.symbol) + " " + str(order.side) + " " + str(order.price))
-                        self._orders[price_str] = order
-                        self._order_var[price_str] = dict()
-                        self._order_label[price_str] = dict()
-                        col = 0
-                        for header in self._headers:
-                            name = header['name']
-                            self._order_var[price_str][name] = tk.StringVar()
-                            self._order_var[price_str][name].set(str(getattr(order, name)))
-                            self._order_label[price_str][name] = tk.Label(self, textvariable=self._order_var[price_str][name], justify=tk.LEFT, bg=BG_COLOR, fg=self._font(order), font=BOLD_FONT)
-                            self._order_label[price_str][name].grid(row=row, column=col)
-                            col += 1
-                        row += 1
-                self._initial = False
+    # Update a table of orders
+    def update(self, orders: typing.List[Order]) -> dict:
+        sort_result = self._sort_orders(orders)
+        if sort_result['sorted']:
+            orders_length = len(orders)
+            current_length = len(self._order_vars)
+            if orders_length >= current_length:
+                for row,order in enumerate(orders):
+                    if row < current_length:
+                        self._refresh_order_display(order, row)
+                    else:
+                        self._build_order_display(order, row)
             else:
-                row = 1
-                for price_str in self._orders:
-                    index = orders.index(self._orders[price_str])
-    # Build the initial book order
-    #def _build(self, orders: typing.List):
-
+                for row, order in enumerate(orders):
+                        self._refresh_order_display(order, row)
+                for row in range(orders_length, current_length):
+                    self._remove_order_display(row)
+            return {'msg': 'List of orders is displayed', 'displayed': True, 'data': orders}
+        else:
+            return {'msg': 'List of orders is empty', 'displayed': False, 'data': orders}
 
     # Change font color depending on side
     def _font(self, order: Order) -> str:
-        if order.side == "BUY":
-            return FG_COLOR_BUY
-        elif order.side == "SELL":
-            return FG_COLOR_SELL
+        if order is not None and order:
+            if order.side == "BUY":
+                return FG_COLOR_BUY
+            elif order.side == "SELL":
+                return FG_COLOR_SELL
+        else:
+            return FG_COLOR
 
+    def _sort_orders(self, orders: typing.List[Order]):
+        if orders is not None:
+            orders.sort(key=lambda o: o.price, reverse=True)
+            return {'msg': 'List of orders has been sorted', 'sorted': True, 'data': orders}
+        else:
+            return {'msg': 'List of orders is empty', 'sorted': False, 'data': orders}
+
+    def _build_order_display(self, order:Order, row: int):
+        self._order_vars.append([])
+        self._order_labels.append([])
+        for col, header in enumerate(self._headers):
+            name = header['name']
+            self._order_vars[row].append(tk.StringVar())
+            self._order_labels[row].append(
+                tk.Label(self, textvariable=self._order_vars[row][col], justify=tk.LEFT, bg=BG_COLOR,
+                         fg=self._font(order), font=BOLD_FONT))
+            self._order_vars[row][col].set(header['func'](getattr(order, name)))
+            self._order_labels[row][col].grid(row=row + 2, column=col)
+
+    def _remove_order_display(self, row: int):
+        for col, header in enumerate(self._headers):
+            self._order_vars[row][col].set("")
+
+    def _refresh_order_display(self, order:Order, row: int):
+        for col, header in enumerate(self._headers):
+            name = header['name']
+            self._order_labels[row][col].config(fg=self._font(order))
+            self._order_vars[row][col].set(header['func'](getattr(order, name)))

@@ -9,6 +9,7 @@ FG_COLOR_3 = 'gray60'
 FG_COLOR_BUTTON = 'black'
 GLOBAL_FONT = ('Calibri', 11, 'normal')
 BOLD_FONT = ('Calibri', 11, 'bold')
+TITLE_FONT = ('Calibri', 13, 'bold')
 BUTTON_FONT = ('Calibri', 20, 'bold')
 MSG_FONT = ('Calibri', 8, 'bold')
 ORD_FONT = ('Calibri', 8, 'normal')
