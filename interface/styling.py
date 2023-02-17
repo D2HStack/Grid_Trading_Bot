@@ -13,3 +13,4 @@ TITLE_FONT = ('Calibri', 15, 'bold')
 BUTTON_FONT = ('Calibri', 20, 'bold')
 MSG_FONT = ('Calibri', 8, 'bold')
 ORD_FONT = ('Calibri', 8, 'normal')
+GLOBAL_PAD = 5

@@ -43,9 +43,10 @@ class Root(tk.Tk):
         try:
             # Update frames
             self._messages_frame.update_msg()
-            open_orders = self._strategy.get('open_orders')
+            open_orders = self._strategy.get_value('open_orders')
             self._open_orders_frame.update(open_orders)
             self._strategy_frame.update_orders()
+            self._strategy_frame.update_pnl()
 
         except RuntimeError as e:
             print("Error while updating interface: %s", e)

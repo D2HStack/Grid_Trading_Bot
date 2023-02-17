@@ -149,7 +149,7 @@ class GridTrading:
     # Get variables and parameters
     def get_params(self) -> GridParam:
         return self._params
-    def get(self, name: str):
+    def get_value(self, name: str):
         if name == 'open_orders':
             return self._open_orders
         if name == 'filled_orders':
@@ -160,6 +160,29 @@ class GridTrading:
             return self._unmatched_orders
         if name == 'matched_orders':
             return self._matched_orders
+        # Unrealized profit is the difference between all unmatched orders and mark price
+        if name == 'unrealized_profit':
+            if self._contract is not None:
+                mark_price = self._api.get_mark_price(self._contract).mark_price
+                unrealized_profit = 0
+                for unmatched_order in self._unmatched_orders:
+                    if unmatched_order.side == "BUY":
+                        unrealized_profit += (mark_price - unmatched_order.price) * unmatched_order.quantity
+                    elif unmatched_order.side == "SELL":
+                        unrealized_profit += (unmatched_order.price - mark_price) * unmatched_order.quantity
+                return unrealized_profit
+            else:
+                return 0
+        # Realized profit is the sum of
+        if name == 'realized_profit':
+            if self._matched_orders:
+                realized_profit = 0
+                for matched_order in self._matched_orders:
+                    realized_profit += matched_order['realized_profit']
+                return realized_profit
+            else:
+                return 0
+
 
     # Check if order is an order from the grid
     def _is_grid_order(self,order):
@@ -216,12 +239,12 @@ class GridTrading:
             unmatched_order = self._unmatched_orders.pop(index)
             if unmatched_order.side == "BUY":
                 profit = (filled_order.price *  filled_order.quantity - unmatched_order.price * unmatched_order.quantity)
-                result = {"BUY": unmatched_order, "SELL": filled_order, "profit": profit}
+                result = {"BUY": unmatched_order, "SELL": filled_order, "realized_profit": profit}
             else:
                 profit = (unmatched_order.price * unmatched_order.quantity - filled_order.price * filled_order.quantity)
-                result = {"BUY": filled_order, "SELL": unmatched_order, "profit": profit}
+                result = {"BUY": filled_order, "SELL": unmatched_order, "realized_profit": profit}
             self._matched_orders.append(result)
-            return {'msg': "Matched orders has generated a profit of {}".format(result['profit']), 'result': result, 'data': filled_order}
+            return {'msg': "Matched orders has generated a profit of {}".format(result['realized_profit']), 'result': result, 'data': filled_order}
         else:
             self._unmatched_orders.append(filled_order)
             return {'msg': "New unmatched order", 'result': filled_order, 'data': filled_order}
