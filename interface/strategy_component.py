@@ -53,6 +53,7 @@ class StrategyFrame(tk.Frame):
             self._order_vars[name] = tk.StringVar()
             self._order_labels[name] = tk.Label(self, textvariable=self._order_vars[name], justify=tk.LEFT, bg=BG_COLOR, fg=FG_COLOR, font=BOLD_FONT)
             self._order_labels[name].pack(side=tk.TOP)
+        #
         self._close_button = tk.Button(self, text="CLOSE", font=BUTTON_FONT,
                                         command=self._on_submit_close, bg=BG_COLOR_2,
                                         fg=FG_COLOR_BUTTON, state='disabled')
@@ -62,13 +63,13 @@ class StrategyFrame(tk.Frame):
     def _on_return(self, param: str):
         def _get_value(event):
             entered_value = event.widget.get()
-            index = self._params.index(param)
+            index = self._param_headers.index(param)
             if entered_value is not None and entered_value:
-                self._params[index]['value'] = entered_value
+                self._param_headers[index]['value'] = entered_value
                 self._messages.add_msg(
-                    str(self._params[index]['label']) + " updated to:" + str(self._params[index]['value']))
-                if index < len(self._params) - 1:
-                    next_param = self._params[index+1]
+                    str(self._param_headers[index]['label']) + " updated to:" + str(self._param_headers[index]['value']))
+                if index < len(self._param_headers) - 1:
+                    next_param = self._param_headers[index+1]
                     self._param_entries[next_param['name']].focus_set()
             else:
                 logger.warning("Nothing entered")
@@ -86,7 +87,6 @@ class StrategyFrame(tk.Frame):
             name = param['name']
             params[name] = self._param_headers[index]['value']
             self._param_entries[name].config(state="disabled")
-        # For testing
         params = GridParam({'symbol': 'ETHUSDT', 'lower_price': 1665, 'upper_price': 1685, 'grids': 10, 'initial_margin': 200})
         msg = self._strategy.create(params)['msg']
         self._messages.add_msg(msg)

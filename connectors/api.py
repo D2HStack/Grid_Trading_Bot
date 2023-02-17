@@ -260,7 +260,7 @@ class BinanceTestnetApi:
     # Check if two prices are equals taking into account price precision
     def are_prices_equal(self, contract: Contract, price1: float, price2: float) -> bool:
         result = False
-        if abs(price1 - price2) <= 2 * pow(10, -contract.price_precision):
+        if abs(price1 - price2) <= 1 / pow(10, -contract.price_precision):
             result = True
         return result
 
