@@ -21,6 +21,8 @@ class GridTrading:
         self._filled_orders = []
         self._matched_orders = []
         self._unmatched_orders = []
+        self._unrealized_profit = 0
+        self._realized_profit = 0
 
     # Create strategy
     def create(self, params: GridParam):
@@ -170,16 +172,53 @@ class GridTrading:
                         unrealized_profit += (mark_price - unmatched_order.price) * unmatched_order.quantity
                     elif unmatched_order.side == "SELL":
                         unrealized_profit += (unmatched_order.price - mark_price) * unmatched_order.quantity
+                self._unrealized_profit = unrealized_profit
                 return unrealized_profit
             else:
                 return 0
+
+        # Size of unmatched orders
+        if name == 'current_margin':
+            if self._contract is not None:
+                mark_price = self._api.get_mark_price(self._contract).mark_price
+                current_margin = 0
+                for unmatched_order in self._unmatched_orders:
+                    current_margin += unmatched_order.quantity * mark_price
+                return current_margin
+            else:
+                return 0
+
         # Realized profit is the sum of
         if name == 'realized_profit':
             if self._matched_orders:
                 realized_profit = 0
                 for matched_order in self._matched_orders:
                     realized_profit += matched_order['realized_profit']
+                self._realized_profit = realized_profit
                 return realized_profit
+            else:
+                return 0
+
+        # Total profit
+        if name == 'total_profit':
+            return self._unrealized_profit + self._realized_profit
+
+        # Entry price is the average price at the time of the trade
+        if name == 'entry_price':
+            if self._contract is not None and self._unmatched_orders:
+                sum_weighted_prices = 0
+                sum_quantity = 0
+                for unmatched_order in self._unmatched_orders:
+                    sum_weighted_prices += unmatched_order.quantity * unmatched_order.price
+                    sum_quantity += unmatched_order.quantity
+                return sum_weighted_prices / sum_quantity
+            else:
+                return 0
+
+        # Mark price
+        if name == "mark_price":
+            if self._contract is not None:
+                return self._api.get_mark_price(self._contract).mark_price
             else:
                 return 0
 

@@ -22,7 +22,7 @@ class StrategyFrame(tk.Frame):
         self._order_labels = dict()
         self._order_vars = dict()
         self._pnl_title = "P&L Monitoring"
-        self._pnl_headers = [{'name': 'unrealized_profit', 'label': 'Unrealized_Profit'}, {'name': 'realized_profit', 'label': 'Realized_Profit'},]
+        self._pnl_headers = [{'name': 'entry_price', 'label': 'Entry Price'}, {'name': 'mark_price', 'label': 'Mark Price'}, {'name': 'current_margin', 'label': 'Current Margin'}, {'name': 'unrealized_profit', 'label': 'Unrealized Profit'}, {'name': 'realized_profit', 'label': 'Realized Profit'}, {'name': 'total_profit', 'label': 'Total Profit'}]
         self._pnl_labels = dict()
         self._pnl_vars = dict()
 
@@ -92,7 +92,7 @@ class StrategyFrame(tk.Frame):
             name = param['name']
             params[name] = self._param_headers[index]['value']
             self._param_entries[name].config(state="disabled")
-        #params = GridParam({'symbol': 'ETHUSDT', 'lower_price': 1690, 'upper_price': 1710, 'grids': 20, 'initial_margin': 500})
+        params = ({'symbol': 'ETHUSDT', 'lower_price': 1680, 'upper_price': 1710, 'grids': 30, 'initial_margin': 1000})
         msg = self._strategy.create(GridParam(params))['msg']
         self._messages.add_msg(msg)
 
