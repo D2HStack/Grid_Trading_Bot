@@ -39,8 +39,8 @@ The project is coded using a simple and intuitive structure.
 < PROJECT ROOT >
    |
    |-- connectors/                            
-|  |-- api.py                         # Exchange API
-|  |-- websocket.py                   # Exchange Websocket
+   |-- api.py                         # Exchange API
+   |-- websocket.py                   # Exchange Websocket
    |
    |-- interfaces/                            
    |    |-- messages_component.py     # Messages to User
