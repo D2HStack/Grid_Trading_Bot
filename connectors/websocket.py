@@ -15,7 +15,6 @@ logger = logging.getLogger()
 
 class BinanceTestnetWebsocket:
     def __init__(self, strategy: GridTrading):
-        #print("Hello from BinanceTestnetWebsocket")
         self._strategy = strategy
         self._HEADERS = {'X-MBX-APIKEY': PUBLIC_KEY}
         # User Websockets
@@ -57,8 +56,6 @@ class BinanceTestnetWebsocket:
             # Get account updates
             if data['e'] == "ACCOUNT_UPDATE":
                 account_update = data['a']
-                #print("account update")
-                #print(account_update)
                 # Balances
                 balance_updates = account_update['B']
                 for balance_update in balance_updates:

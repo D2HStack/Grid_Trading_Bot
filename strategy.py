@@ -62,7 +62,7 @@ class GridTrading:
 
     # Process an order update from websocket
     def process_order(self, order_update: Order):
-        print("order update " + order_update.symbol + " " + order_update.status + " " + order_update.side + " " + order_update.type + " " + str(order_update.price))
+        #print("order update " + order_update.symbol + " " + order_update.status + " " + order_update.side + " " + order_update.type + " " + str(order_update.price))
         if self._is_grid_order(order_update):
             self._order_updates.append(order_update)
             if order_update.status == 'NEW':
@@ -73,25 +73,18 @@ class GridTrading:
                 result_remove_order = self._remove_order(order_update, self._open_orders)
             # Beware that partially filled orders are not processed
             if order_update.status == 'FILLED':
-                #print("Filled from order update")
                 result_remove_order = self._remove_order(order_update, self._open_orders)
-                print(result_remove_order['msg'])
                 self._filled_orders.append(order_update)
                 opposite_order = self._opposite_order(order_update)
-                print(opposite_order['msg'])
                 replace_order = self._replace_order(order_update, opposite_order['result']['opposite_side'], opposite_order['result']['opposite_price'], opposite_order['result']['opposite_quantity'])
-                print(replace_order['msg'])
                 matched_order = self._match_order(order_update, opposite_order['result']['matched_order_index'])
-                print(matched_order['msg'])
 
     # Process a position update from websocket
     def process_position(self, position: Position):
-        print("position update")
         print(position.symbol + " " + str(position.amount) + " " + str(position.accumulated_realized))
     # Process a position update from websocket
 
     def process_balance_update(self, balance_update: BalanceUpdate):
-        print("balance update")
         print(balance_update.asset + " " + str(balance_update.wallet_balance))
 
 

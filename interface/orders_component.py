@@ -1,5 +1,5 @@
 # Display orders ranked by price with mrk price and color depending on side
-import tkinter as tk
+from tkinter import *
 import typing
 import datetime
 from interface.styling import *
@@ -10,7 +10,7 @@ import logging
 
 logger = logging.getLogger()
 
-class OrdersFrame(tk.Frame):
+class OrdersFrame(Frame):
     def __init__(self, headers: typing.List[dict], title: str, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self._headers = headers
@@ -19,11 +19,15 @@ class OrdersFrame(tk.Frame):
         self._order_labels = []
         # Build headers
         self._headers_label = []
-        self._title = tk.Label(self, text=title,  justify=tk.LEFT, bg=BG_COLOR, fg=FG_COLOR, font=TITLE_FONT)
-        self._title.grid(row=0, column=0)
+        self.columnconfigure(0, weight=1)
+        self.columnconfigure(1, weight=1)
+        self.columnconfigure(2, weight=1)
+        self.columnconfigure(3, weight=1)
+        self._title = Label(self, text=title, font=TITLE_FONT)
+        self._title.grid(row=0, column=0, columnspan=4, ipadx=IPADX, ipady=IPADY, padx=PADX, pady=PADY, sticky=W+E)
         for col, header in enumerate(self._headers):
-            self._headers_label.append(tk.Label(self, text=header['label'],  justify=tk.LEFT, bg=BG_COLOR, fg=FG_COLOR, font=BOLD_FONT))
-            self._headers_label[col].grid(row=1, column=col)
+            self._headers_label.append(Label(self, text=header['label'], font=LABEL_FONT))
+            self._headers_label[col].grid(row=1, column=col,  ipadx=IPADX, ipady=IPADY, padx=PADX, pady=PADY, sticky=W+E)
 
     # Update a table of orders
     def update(self, orders: typing.List[Order]) -> dict:
@@ -68,10 +72,9 @@ class OrdersFrame(tk.Frame):
         self._order_labels.append([])
         for col, header in enumerate(self._headers):
             name = header['name']
-            self._order_vars[row].append(tk.StringVar())
+            self._order_vars[row].append(StringVar())
             self._order_labels[row].append(
-                tk.Label(self, textvariable=self._order_vars[row][col], justify=tk.LEFT, bg=BG_COLOR,
-                         fg=self._font(order), font=BOLD_FONT))
+                Label(self, textvariable=self._order_vars[row][col], fg=self._font(order), font=BOLD_FONT))
             self._order_vars[row][col].set(header['func'](getattr(order, name)))
             self._order_labels[row][col].grid(row=row + 2, column=col)
 
